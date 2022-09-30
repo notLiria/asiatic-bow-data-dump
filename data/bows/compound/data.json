@@ -1,0 +1,93 @@
+{
+  "bow-title": "Compound bows for reference",
+  "bow-link": "",
+  "skip-calcs": true,
+  "samples": [
+    {
+      "bow-title": "Bowtech Amplify",
+      "unstrung-length": "Not Measured",
+      "strung-length": "Not Measured",
+      "min-box-dim": {
+        "length": "Not Measured",
+        "width": "Not Measured",
+        "depth": "Not Measured"
+      },
+      "siyahs": {
+        "effective-top-length": "Not Measured",
+        "effective-bottom-length": "Not Measured",
+        "effective-top-angle": "Not Measured",
+        "effective-bottom-angle": "Not Measured"
+      },
+      "bow-mass": "Not Measured",
+      "grip-dim": {
+        "length": "Not Measured",
+        "width": "Not Measured",
+        "thickness": "Not Measured"
+      },
+      "max-limb-thickness": "Not Measured",
+      "min-limb-thickness": "Not Measured",
+      "max-limb-width": "Not Measured",
+      "min-limb-width": "Not Measured",
+      "arrow-pass-width": "Not Measured",
+      "max-draw": "Not Measured",
+      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "brace-height": 15,
+      "manufacture-date": "",
+      "measurement-date": "",
+      "comments": "Measured to the edge of the whisker biscuit. 50-70#, set to 30\" and comfort mode ",
+      "asym": false,
+      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "df-data": [
+        { "x": 6, "y": 4.4 },
+        { "x": 7, "y": 13.6 },
+        { "x": 8, "y": 23.4 },
+        { "x": 9, "y": 31.6 },
+        { "x": 10, "y": 39.7 },
+        { "x": 11, "y": 46.8 },
+        { "x": 12, "y": 49.5 },
+        { "x": 13, "y": 49.5 },
+        { "x": 14, "y": 50.1 },
+        { "x": 15, "y": 50.5 },
+        { "x": 16, "y": 51.1 },
+        { "x": 17, "y": 51.3 },
+        { "x": 18, "y": 51.8 },
+        { "x": 19, "y": 51.8 },
+        { "x": 20, "y": 51 },
+        { "x": 21, "y": 49.1 },
+        { "x": 22, "y": 47 },
+        { "x": 23, "y": 43.7 },
+        { "x": 24, "y": 39.2 },
+        { "x": 25, "y": 34.5 },
+        { "x": 26, "y": 27.7 },
+        { "x": 27, "y": 13 },
+        { "x": 28, "y": 11.8 }
+      ],
+      "longbow-point": -1,
+      "central-differences": [
+        { "x": 6.0, "y": 7.241666666666678 },
+        { "x": 7.0, "y": 11.699999999999987 },
+        { "x": 8.0, "y": 9.058333333333334 },
+        { "x": 9.0, "y": 8.100000000000005 },
+        { "x": 10.0, "y": 7.958333333333329 },
+        { "x": 11.0, "y": 5.041666666666664 },
+        { "x": 12.0, "y": 0.933333333333338 },
+        { "x": 13.0, "y": 0.09166666666666412 },
+        { "x": 14.0, "y": 0.5333333333333314 },
+        { "x": 15.0, "y": 0.5166666666666648 },
+        { "x": 16.0, "y": 0.3916666666666657 },
+        { "x": 17.0, "y": 0.3583333333333343 },
+        { "x": 18.0, "y": 0.34166666666666856 },
+        { "x": 19.0, "y": -0.34999999999999964 },
+        { "x": 20.0, "y": -1.3999999999999972 },
+        { "x": 21.0, "y": -1.991666666666668 },
+        { "x": 22.0, "y": -2.616666666666668 },
+        { "x": 23.0, "y": -3.9833333333333343 },
+        { "x": 24.0, "y": -4.524999999999999 },
+        { "x": 25.0, "y": -5.108333333333335 },
+        { "x": 26.0, "y": -12.05 },
+        { "x": 27.0, "y": -21.558333333333334 },
+        { "x": 28.0, "y": 19.4833333333333 }
+      ]
+    }
+  ]
+}

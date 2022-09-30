@@ -1,0 +1,32 @@
+{
+  "bow-title": "Bow Name",
+  "bow-link": "link",
+  "unstrung-length": 0,
+  "strung-length": 0,
+  "min-box-dim": { "length": 0, "width": 0, "depth": 0 },
+  "siyahs": {
+    "effective-top-length": 0,
+    "effective-bottom-length": 0,
+    "effective-top-angle": 0,
+    "effective-bottom-angle": 40
+  },
+  "bending-section-length": 0,
+  "bow-mass": 0,
+  "grip-shape": "unknown",
+  "grip-dim": { "length": 0, "width": 0, "thickness": 0 },
+  "max-limb-thickness": 0,
+  "min-limb-thickness": 0,
+  "max-limb-width": 0,
+  "min-lim-width": 0,
+  "arrow-pass-width": 0,
+  "max-draw": 0,
+  "min-gpp": 0,
+  "materials": "Fibreglass",
+  "stock-string-length": { "max": 0, "min": 0 },
+  "brace-height": 6,
+  "df-data": [{ "x": 0, "y": 0 }],
+  "poundage": 0,
+  "asym": false,
+  "asym-lengths": { "top": 0, "bottom": 0 },
+  "test": true
+}

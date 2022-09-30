@@ -1,0 +1,26 @@
+{
+  "name": "bow-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "add-calcs": "cd python && poetry run update_data && npm run prettify-data",
+    "prettify-data": "prettier --write ./server/data/bows"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.0",
+    "mathjs": "^11.0.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gh-notliria:notLiria/asiatic-bow-data-dump.git"
+  },
+  "description": ""
+}

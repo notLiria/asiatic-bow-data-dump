@@ -22,7 +22,6 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-api_tests = "testing.apiTests:start"
 df_curve_calcs = "calculations.dfCurve:start"
 update_data = "calculations.updateData:updateData"
 latest_experiment = "calculations.updateData:latestExperiment"

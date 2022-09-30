@@ -5,9 +5,11 @@ on:
       - master
 
 jobs:
-  - name: Trigger data update
-    uses: peter-evans/repository-dispatch@v2
-    with:
-      token: ${{ secrets.REPO_ACCESS_TOKEN }}
-      repository: notLiria/BowDataRepo
-      event-type: new-data
+  trigger-deploy:
+    steps: 
+      - name: Trigger data update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: notLiria/BowDataRepo
+          event-type: new-data

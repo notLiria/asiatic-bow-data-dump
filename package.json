@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "add-calcs": "cd python && poetry run update_data && npm run prettify-data",
-    "prettify-data": "prettier --write ./server/data/bows"
+    "prettify-data": "prettier --write ./data/bows",
+    "process-csv": "node readBowCsv"
   },
   "keywords": [],
   "author": "",

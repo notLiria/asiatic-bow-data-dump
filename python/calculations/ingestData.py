@@ -2,7 +2,7 @@ import os
 import json
 
 def getBowModels(): 
-    dataDir = [f.path for f in os.scandir(os.path.abspath('../server/data/bows')) if f.is_dir()]
+    dataDir = [f.path for f in os.scandir(os.path.abspath('../data/bows')) if f.is_dir()]
     return dataDir
     
 

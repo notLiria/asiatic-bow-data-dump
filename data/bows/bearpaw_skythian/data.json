@@ -1,0 +1,59 @@
+{
+  "bow-title": "Bearpaw Skythian",
+  "bow-link": "https://www.bearpaw-shop.com/en/products/bows/penthalon-bows/horsebows/79/20004-bearpaw-skythian-horsebow",
+  "samples": [
+    {
+      "bow-title": "Bearpaw Scythian Bow",
+      "unstrung-length": 137,
+      "strung-length": 120,
+      "min-box-dim": { "length": 127, "width": 7, "depth": 4.1 },
+      "siyahs": {
+        "effective-top-length": 19,
+        "effective-bottom-length": 19,
+        "effective-top-angle": 20,
+        "effective-bottom-angle": 20
+      },
+      "bow-mass": 573,
+      "grip-dim": { "length": 90, "width": 25, "thickness": 27 },
+      "max-limb-thickness": 7.4,
+      "min-limb-thickness": 7,
+      "max-limb-width": 30,
+      "min-limb-width": 40,
+      "arrow-pass-width": 25,
+      "max-draw": 27,
+
+      "stock-string-length": { "max": 112, "min": 104 },
+      "brace-height": 15.3,
+      "manufacture-date": "2019-08",
+      "measurement-date": "2022-09",
+      "comments": "",
+      "contributed-by": { "discord": "InstaPizza#5973" },
+      "asym": false,
+      "asym-length": { "top": 61, "bottom": 61 },
+      "df-data": [
+        { "x": 8, "y": 1.6 },
+        { "x": 9, "y": 2.4 },
+        { "x": 10, "y": 3.6 },
+        { "x": 11, "y": 4.6 },
+        { "x": 12, "y": 5.2 },
+        { "x": 13, "y": 6 },
+        { "x": 14, "y": 7 },
+        { "x": 15, "y": 7.8 },
+        { "x": 16, "y": 8.6 },
+        { "x": 17, "y": 9.6 },
+        { "x": 18, "y": 10.6 },
+        { "x": 19, "y": 11.6 },
+        { "x": 20, "y": 12.8 },
+        { "x": 21, "y": 13.8 },
+        { "x": 22, "y": 15.2 },
+        { "x": 23, "y": 16.8 },
+        { "x": 24, "y": 18.2 },
+        { "x": 25, "y": 20.8 },
+        { "x": 26, "y": 22.8 },
+        { "x": 27, "y": 25.2 },
+        { "x": 28, "y": 28 },
+        { "x": 29, "y": 32.6 }
+      ]
+    }
+  ]
+}

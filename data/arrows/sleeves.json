@@ -1,0 +1,1451 @@
+[
+  {
+    "Brand": "Black Eagle Deep Impact F.O.C.O.S. 400",
+    "ID": 0.233,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact F.O.C.O.S. 350",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact F.O.C.O.S. 300",
+    "ID": 0.248,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact Outsert 500",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "44"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact Outsert 400",
+    "ID": 0.233,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "42"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact Outsert 350",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "42"
+  },
+  {
+    "Brand": "Black Eagle Deep Impact Outsert 300",
+    "ID": 0.248,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40"
+  },
+  {
+    "Brand": "Black Eagle Instinct F.O.C.O.S. 600",
+    "ID": 0.231,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Instinct F.O.C.O.S. 500",
+    "ID": 0.236,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Instinct F.O.C.O.S. 400",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Instinct F.O.C.O.S. 350",
+    "ID": 0.248,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle Instinct Stainless Steel Outsert 600",
+    "ID": 0.231,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Instinct Stainless Steel Outsert 500",
+    "ID": 0.236,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Instinct Stainless Steel Outsert 400",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Instinct Stainless Steel Outsert 350",
+    "ID": 0.248,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Rampage F.O.C.O.S. 400",
+    "ID": 0.253,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Rampage F.O.C.O.S. 350",
+    "ID": 0.261,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Rampage F.O.C.O.S. 300",
+    "ID": 0.264,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Rampage F.O.C.O.S. 250",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Rampage F.O.C.O.S. 200",
+    "ID": 0.285,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "100"
+  },
+  {
+    "Brand": "Black Eagle Revelation 800",
+    "ID": 0.183,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 750",
+    "ID": 0.185,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 700",
+    "ID": 1.186,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 650",
+    "ID": 0.189,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 600",
+    "ID": 0.191,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 550",
+    "ID": 0.193,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 500",
+    "ID": 0.198,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 450",
+    "ID": 0.201,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 400",
+    "ID": 0.208,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 350",
+    "ID": 0.212,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle Revelation 300",
+    "ID": 0.218,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "20 / 40 / 60 / 80"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 500",
+    "ID": 0.214,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 400",
+    "ID": 0.221,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 350",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 300",
+    "ID": 0.231,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 250",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact F.O.C.O.S. 200",
+    "ID": 0.256,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "80 / 100"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 500",
+    "ID": 0.214,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "48"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 400",
+    "ID": 0.221,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "46"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 350",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "44"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 300",
+    "ID": 0.231,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 250",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "42"
+  },
+  {
+    "Brand": "Black Eagle X-Impact Outsert 200",
+    "ID": 0.256,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Carbon Express Triad In-Out Insert #1",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "97"
+  },
+  {
+    "Brand": "Carbon Express Triad In-Out Insert #2",
+    "ID": 0.241,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "97"
+  },
+  {
+    "Brand": "Carbon Express Triad In-Out Insert #3",
+    "ID": 0.251,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "97"
+  },
+  {
+    "Brand": "Day Six 400",
+    "ID": 0.238,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50 / 75 / 100 / 125 / 150"
+  },
+  {
+    "Brand": "Day Six 350",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50 / 75 / 100 / 125 / 150"
+  },
+  {
+    "Brand": "Day Six 300",
+    "ID": 0.253,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50 / 75 / 100 / 125 / 150"
+  },
+  {
+    "Brand": "Day Six 275",
+    "ID": 0.259,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50 / 75 / 100 / 125 / 150"
+  },
+  {
+    "Brand": "Day Six 250",
+    "ID": 0.263,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50 / 75 / 100 / 125 / 150"
+  },
+  {
+    "Brand": "Easton 4mm Half-Out #1",
+    "ID": 0.229,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Easton 4mm Half-Out #2",
+    "ID": 0.234,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Easton 4mm Half-Out #3",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Easton 4mm Half-Out #4",
+    "ID": 0.244,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Easton 4mm Half-Out #5",
+    "ID": 0.247,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Ethics 8/32 228",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 8/32 234",
+    "ID": 0.234,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 8/32 240",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 8/32 245",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 8/32 250",
+    "ID": 0.25,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 8/32 255",
+    "ID": 0.255,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "40 / 100"
+  },
+  {
+    "Brand": "Ethics 124/209",
+    "ID": 0.209,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "100-150"
+  },
+  {
+    "Brand": "Ethics 124/215",
+    "ID": 0.215,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "100-150"
+  },
+  {
+    "Brand": "Ethics 165/215",
+    "ID": 0.215,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 85-105"
+  },
+  {
+    "Brand": "Ethics 165/219",
+    "ID": 0.219,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 85-105"
+  },
+  {
+    "Brand": "Ethics 165/222",
+    "ID": 0.222,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 80-100 / 75-135 / 110-170"
+  },
+  {
+    "Brand": "Ethics 165/226",
+    "ID": 0.226,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 90-110 / 75-135 / 120-180"
+  },
+  {
+    "Brand": "Ethics 165/228",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "40-60 / 85-105 / 80-130 / 115-175"
+  },
+  {
+    "Brand": "Ethics 165/234",
+    "ID": 0.234,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 90-110 / 75-135 / 120-180"
+  },
+  {
+    "Brand": "Ethics 165/240",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 90-110 / 75-135 / 120-180"
+  },
+  {
+    "Brand": "Ethics 165/245",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 90-110 / 75-135 / 120-180"
+  },
+  {
+    "Brand": "Ethics 165/250",
+    "ID": 0.25,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 85-105 / 75-130 / 115-175"
+  },
+  {
+    "Brand": "Ethics 165/255",
+    "ID": 0.255,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 85-105 / 75-130 / 115-175"
+  },
+  {
+    "Brand": "Ethics 165/262",
+    "ID": 0.262,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "45-65 / 75-135 / 80-10 / 110-170"
+  },
+  {
+    "Brand": "Ethics 204/250",
+    "ID": 0.25,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 95-125 / 95-185 / 135-225"
+  },
+  {
+    "Brand": "Ethics 204/255",
+    "ID": 0.255,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 95-125 / 95-185 / 135-225"
+  },
+  {
+    "Brand": "Ethics 204/262",
+    "ID": 0.262,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 90-120 / 95-185 / 130-220"
+  },
+  {
+    "Brand": "Ethics 204/267",
+    "ID": 0.267,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 90-120 / 95-185 / 130-220"
+  },
+  {
+    "Brand": "Ethics 204/272",
+    "ID": 0.272,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 85-115 / 95-185 / 125-215"
+  },
+  {
+    "Brand": "Ethics 204/276",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 90-120 / 95-185 / 130-220"
+  },
+  {
+    "Brand": "Ethics 204/281",
+    "ID": 0.281,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "55-85 / 90-120 / 95-185 / 130-220"
+  },
+  {
+    "Brand": "Ethics 204/287",
+    "ID": 0.287,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50-80 / 85-115 / 90-180 / 125-215 / 105-180 / 140-215"
+  },
+  {
+    "Brand": "Ethics 204/295",
+    "ID": 0.295,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "175-250"
+  },
+  {
+    "Brand": "Ethics 204/307",
+    "ID": 0.307,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "150-200"
+  },
+  {
+    "Brand": "Ethics 204/312",
+    "ID": 0.312,
+    "OD": 0.37,
+    "Point size": "3/8",
+    "Weight": "300-400"
+  },
+  {
+    "Brand": "Ethics 224/272",
+    "ID": 0.272,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75-110 / 120-210"
+  },
+  {
+    "Brand": "Ethics 224/276",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "65-100 / 110-200"
+  },
+  {
+    "Brand": "Ethics 224/281",
+    "ID": 0.281,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "65-100 / 110-200"
+  },
+  {
+    "Brand": "Ethics 224/287",
+    "ID": 0.287,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "60-95 / 105-195"
+  },
+  {
+    "Brand": "Ethics 224/295",
+    "ID": 0.295,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75-110 / 120-210"
+  },
+  {
+    "Brand": "Ethics 224/312",
+    "ID": 0.312,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "65-100 / 125-150"
+  },
+  {
+    "Brand": "Ethics 231/272",
+    "ID": 0.272,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 231/276",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 231/281",
+    "ID": 0.281,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 231/287",
+    "ID": 0.287,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 231/291",
+    "ID": 0.291,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/281",
+    "ID": 0.281,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/287",
+    "ID": 0.287,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/291",
+    "ID": 0.291,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/295",
+    "ID": 0.295,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/299",
+    "ID": 0.299,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/302",
+    "ID": 0.302,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/307",
+    "ID": 0.307,
+    "OD": "unknown",
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Ethics 244/312",
+    "ID": 0.312,
+    "OD": 0.346,
+    "Point size": "11/32",
+    "Weight": "80-100 / 125-200"
+  },
+  {
+    "Brand": "Firenock AOA568",
+    "ID": 0.223,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA577",
+    "ID": 0.227,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA579",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA583",
+    "ID": 0.229,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA589",
+    "ID": 0.231,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA597",
+    "ID": 0.235,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA602",
+    "ID": 0.237,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA606",
+    "ID": 0.238,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA612",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA615",
+    "ID": 0.242,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA622",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA626",
+    "ID": 0.246,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA631",
+    "ID": 0.248,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA633",
+    "ID": 0.251,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA650",
+    "ID": 0.253,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Firenock AOA680",
+    "ID": 0.263,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": ""
+  },
+  {
+    "Brand": "Gold Tip Airstrike Ballistic Collar 400",
+    "ID": 0.254,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "15.5"
+  },
+  {
+    "Brand": "Gold Tip Airstrike Ballistic Collar 340",
+    "ID": 0.258,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "14.6"
+  },
+  {
+    "Brand": "Gold Tip Airstrike Ballistic Collar 300",
+    "ID": 0.262,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "13.6"
+  },
+  {
+    "Brand": "Gold Tip Airstrike Ballistic Collar 250",
+    "ID": 0.269,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "19.0"
+  },
+  {
+    "Brand": "Gold Tip Ballistic Collar 500",
+    "ID": 0.258,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "12.8"
+  },
+  {
+    "Brand": "Gold Tip Ballistic Collar 340-400",
+    "ID": 0.272,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "12.8"
+  },
+  {
+    "Brand": "Gold Tip Ballistic Collar 300",
+    "ID": 0.274,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "12.8"
+  },
+  {
+    "Brand": "Gold Tip Ballistic Collar 200",
+    "ID": 0.282,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "12.8"
+  },
+  {
+    "Brand": "Gold Tip Black Label Quantum Ballistic Collar 400",
+    "ID": 0.252,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "15.5"
+  },
+  {
+    "Brand": "Gold Tip Black Label Quantum Ballistic Collar 340",
+    "ID": 0.257,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "14.6"
+  },
+  {
+    "Brand": "Gold Tip Black Label Quantum Ballistic Collar 300",
+    "ID": 0.26,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "13.6"
+  },
+  {
+    "Brand": "Gold Tip Black Label Quantum Ballistic Collar 250",
+    "ID": 0.268,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "19"
+  },
+  {
+    "Brand": "Gold Tip Peirce Ballistic Collar 500",
+    "ID": 0.222,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "25"
+  },
+  {
+    "Brand": "Gold Tip Peirce Ballistic Collar 400",
+    "ID": 0.229,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "25"
+  },
+  {
+    "Brand": "Gold Tip Peirce Ballistic Collar 340",
+    "ID": 0.234,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "25"
+  },
+  {
+    "Brand": "Gold Tip Peirce Ballistic Collar 300",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "25"
+  },
+  {
+    "Brand": "Gold Tip Peirce Ballistic Collar 250",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "25"
+  },
+  {
+    "Brand": "Gold Tip Traditional Classic Ballistic Collar 600",
+    "ID": 0.269,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "11.5"
+  },
+  {
+    "Brand": "Gold Tip Traditional Classic Ballistic Collar 500",
+    "ID": 0.274,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "10.2"
+  },
+  {
+    "Brand": "Gold Tip Traditional Classic Ballistic Collar 400",
+    "ID": 0.282,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "15.3"
+  },
+  {
+    "Brand": "Gold Tip Traditional Classic Ballistic Collar 340",
+    "ID": 0.287,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "13.9"
+  },
+  {
+    "Brand": "Grizzlystik 400",
+    "ID": "unknown",
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "70"
+  },
+  {
+    "Brand": "Grizzlystik 320",
+    "ID": "unknown",
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "70"
+  },
+  {
+    "Brand": "Grizzlystik 240",
+    "ID": "unknown",
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "70"
+  },
+  {
+    "Brand": "Grizzlystik 170",
+    "ID": 0.316,
+    "OD": 0.371,
+    "Point size": "3/8",
+    "Weight": "70"
+  },
+  {
+    "Brand": "Iron Will G",
+    "ID": 0.233,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will F",
+    "ID": 0.238,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will E",
+    "ID": 0.246,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will D",
+    "ID": 0.254,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will H",
+    "ID": 0.263,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will C",
+    "ID": 0.269,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will B",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Iron Will A",
+    "ID": 0.281,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10 / 25"
+  },
+  {
+    "Brand": "Nock Out Lock-n-Load 165 Hybrid Arrow Outsert",
+    "ID": "unknown",
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Nexxus Bowhunting 400",
+    "ID": 0.232,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50/75"
+  },
+  {
+    "Brand": "Nexxus Bowhunting 350",
+    "ID": 0.238,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50/75"
+  },
+  {
+    "Brand": "Nexxus Bowhunting 300",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "50/75"
+  },
+  {
+    "Brand": "Nexxus Bowhunting 250",
+    "ID": 0.252,
+    "OD": 0.314,
+    "Point size": "5/16",
+    "Weight": "50/75"
+  },
+  {
+    "Brand": "Valkyrie X500/600",
+    "ID": 0.216,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "22 / 58 / 75"
+  },
+  {
+    "Brand": "Valkyrie X400",
+    "ID": 0.221,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "22 / 58 /75"
+  },
+  {
+    "Brand": "Valkyrie Reign 400/X350",
+    "ID": 0.228,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "22 / 57 / 75"
+  },
+  {
+    "Brand": "Valkyrie Reign 350/X300",
+    "ID": 0.232,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "22 / 56 / 100"
+  },
+  {
+    "Brand": "Valkyrie Reign 300",
+    "ID": 0.237,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21 / 53 / 100"
+  },
+  {
+    "Brand": "Valkyrie X250",
+    "ID": 0.24,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21 / 53 / 100"
+  },
+  {
+    "Brand": "Valkyrie Reign 250/GT Pierce",
+    "ID": 0.245,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21 / 53 / 100"
+  },
+  {
+    "Brand": "Valkyrie Sleeve",
+    "ID": 0.249,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "20 / 53 / 100"
+  },
+  {
+    "Brand": "Valkyrie X200",
+    "ID": 0.256,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "20 / 54 / 100"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 260GN",
+    "ID": 0.26,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 260SS",
+    "ID": 0.26,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "60"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 264GY",
+    "ID": 0.264,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 264SS",
+    "ID": 0.264,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "60"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 267BL",
+    "ID": 0.267,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "21"
+  },
+  {
+    "Brand": "Victory RIP SHOK .204 267BL",
+    "ID": 0.267,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "60"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RS",
+    "ID": 0.258,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RSS",
+    "ID": 0.258,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RM",
+    "ID": 0.266,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RMS",
+    "ID": 0.266,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RL",
+    "ID": 0.275,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RLS",
+    "ID": 0.275,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RXL",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL204 RXLS",
+    "ID": 0.276,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory VAP SHOK 229GN",
+    "ID": 0.229,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "34"
+  },
+  {
+    "Brand": "Victory VAP SHOK 234 GY",
+    "ID": 0.234,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "34"
+  },
+  {
+    "Brand": "Victory VAP SHOK 241BL",
+    "ID": 0.241,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "34"
+  },
+  {
+    "Brand": "Victory SHOK TL VS",
+    "ID": 0.227,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL VSS",
+    "ID": 0.227,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL VS95",
+    "ID": 0.227,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "90"
+  },
+  {
+    "Brand": "Victory SHOK TL VM",
+    "ID": 0.232,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL VMS",
+    "ID": 0.232,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL VM95",
+    "ID": 0.232,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "90"
+  },
+  {
+    "Brand": "Victory SHOK TL VL",
+    "ID": 0.237,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL VLS",
+    "ID": 0.237,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL VL95",
+    "ID": 0.237,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "90"
+  },
+  {
+    "Brand": "Victory SHOK TL VXL",
+    "ID": 0.244,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL VXLS",
+    "ID": 0.244,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL VXL95",
+    "ID": 0.244,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "90"
+  },
+  {
+    "Brand": "Victory SHOK TL VXXL",
+    "ID": 0.247,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "50"
+  },
+  {
+    "Brand": "Victory SHOK TL VXXLS",
+    "ID": 0.247,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "75"
+  },
+  {
+    "Brand": "Victory SHOK TL VXXL95",
+    "ID": 0.247,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "90"
+  },
+  {
+    "Brand": "Victory SHOK Carbon Trad 279SS",
+    "ID": 0.279,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80"
+  },
+  {
+    "Brand": "Victory SHOK Carbon Trad 283SS",
+    "ID": 0.283,
+    "OD": "unknown",
+    "Point size": "5/16",
+    "Weight": "80"
+  },
+  {
+    "Brand": "VPA FMJ-5MM-500",
+    "ID": 0.256,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10"
+  },
+  {
+    "Brand": "VPA FMJ-5MM-400",
+    "ID": 0.263,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10"
+  },
+  {
+    "Brand": "VPA FMJ-5MM-340",
+    "ID": 0.269,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10"
+  },
+  {
+    "Brand": "VPA FMJ-5MM-300",
+    "ID": 0.273,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10"
+  },
+  {
+    "Brand": "VPA FMJ-5MM-250",
+    "ID": 0.29,
+    "OD": "unknown",
+    "Point size": "unknown",
+    "Weight": "10"
+  }
+]

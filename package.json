@@ -7,7 +7,8 @@
     "prettify-data": "prettier --write ./data/bows",
     "process-bow-csv": "node utils/readBowCsv",
     "process-fps-csv": "node utils/readFpsCsv",
-    "process-shaft-csv": "node utils/readShaftCsv"
+    "process-shaft-csv": "node utils/readShaftCsv",
+    "process-sleeve-csv": "node utils/readSleeveCsv"
   },
   "keywords": [],
   "author": "",

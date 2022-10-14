@@ -14,15 +14,20 @@ const keys = Object.keys(records[0]);
 records.shift()
 
 output = records.map(record => {
-  if (record['ID'] !== '') {
-    record['ID'] = Number(record['ID'])
+  if (record['Shaft Size'] !== '') {
+    record['Shaft Size'] = Number(record['Shaft Size'])
   } else {
-    record['ID'] = 'unknown'
+    record['Shaft Size'] = 'unknown'
+  }
+  if (record['Outsert ID'] !== '') {
+    record['Outsert ID'] = Number(record['Outsert ID'])
+  } else {
+    record['Outsert ID'] = 'unknown'
   } 
-  if (record['OD'] !== '') {
-    record['OD'] = Number(record['OD'])
+  if (record['Outsert OD'] !== '') {
+    record['Outsert OD'] = Number(record['Outsert OD'])
   } else {
-    record['OD'] = 'unknown'
+    record['Outsert OD'] = 'unknown'
   }
   if (record['Point size'] === '') {
     record['Point size'] = 'unknown'

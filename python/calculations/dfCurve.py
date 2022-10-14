@@ -18,34 +18,23 @@ def stringifyPolynomial(poly):
         output += str(poly[i]) + 'x^' + str(len(poly) - i) + ' + '
     return output + str(poly[-1])
 
-def approximateDrawForceCurve(dfData):
-    output = {}
-    xVals = [sample['x'] for sample in dfData]
-    yVals = [sample['y'] for sample in dfData]
-    regressionEqn = np.polyfit(xVals, yVals, 6)
-    regressionDerivative = np.polyder(regressionEqn)
-    output['df-curve'] = [{'x' : x, 'y': float(np.polyval(regressionEqn, x))} for x in xVals]
-    output['coeffs'] = regressionEqn.tolist()
-    output['regression-eqn'] = stringifyPolynomial(regressionEqn)
-    output['regression-derivative'] = stringifyPolynomial(regressionDerivative)
-    output['regression-derivative-values'] = [{'x': x, 'y': float(np.polyval(regressionDerivative, x))} for x in xVals]
-    return output
-
 def calcEnergy(coeffs, dfData):
     xVals = [sample['x'] for sample in dfData]
     yVals = [exponentialDfFunc(x, coeffs) /0.22481 for x in xVals]
     totalEnergy = np.trapz(yVals, dx = 0.0254)
     return totalEnergy
 
-def calcEnergyAtPoint(regressionCoeffs, dfData, dL):
-    xVals = [point['x'] for point in dfData]
-    if (dL > max(xVals) or dL < min(xVals) ):
-        print(xVals)
-        print(dL)
+def calcEnergyAtPoint(regressionCoeffs, dfData, dLToBelly):
+    # Assume regression coefficients are in the format of [l[0], l[1], P[0], P[1], constant]
+    originalX = [point['x'] for point in dfData]
+    if (dLToBelly > max(originalX) or dLToBelly < min(originalX) ):
+        print(originalX)
+        print(dLToBelly)
         raise Exception('Draw length out of bounds')
-    xVals = np.linspace(min(xVals), dL + 1, int(dL + 1 - min(xVals)))
-    yVals = [exponentialDfFunc(x, regressionCoeffs)/ 0.22481 for x in xVals]
-    return np.trapz(yVals, dx = 0.0254)
+    xVals = np.linspace(min(originalX), dLToBelly, 100)
+    dX = (dLToBelly - min(originalX))/50
+    yVals = [exponentialDfFunc(x, regressionCoeffs) for x in xVals]
+    return np.trapz(yVals, x = xVals) * 0.113
 
 def calcCentralDifferences(dfData):
     dx = FinDiff(0, 1, 1, acc=4)
@@ -134,7 +123,7 @@ def exponentiallyFitDfData(dfData):
     popt, _ = curve_fit(dfFunc, xVals, yVals)
     output['df-curve'] = [{'x': str(x), 'y': float(dfFunc(x, *popt))} for x in xVals]
     output['coeffs']  = [*list(lambdas), *list(P), *list(popt)] # Note that these are coeffs for the derivative
-    output['regression-eqn'] = str(P[0]/lambdas[0]) + "e^" + str(lambdas[0]) + "x + " + str(P[1]/lambdas[0]) + "e^" + str(lambdas[1]) + "x" + str(*popt)
+    output['regression-eqn'] = str(P[0]/lambdas[0]) + "e^(" + str(lambdas[0]) + "x) + " + str(P[1]/lambdas[1]) + "e^(" + str(lambdas[1]) + "x) + " + str(*popt)
     output['regression-derivative'] = str(P[0]) + 'e^' + str(lambdas[0]) + "x + "  + str(P[1]) + "e^" + str(lambdas[1]) + "x"
     output['regression-derivative-values'] = [{'x': str(x), 'y': float(derivativeFunc(x, *[*lambdas, *P]))} for x in xVals]
     return output
@@ -175,18 +164,3 @@ def estimateVMass(sample):
 
 def start():
     print('hello world2')
-    listOfBows = getBowModels()
-#    bowData = getBowData(listOfBows[2])
-#    for i in range(len(listOfBows)):
-    i = 0
-    bowData = getBowData('/Users/fionahu/code/bow-data/server/data/bows/alibow_xongkoro_lam')
-    print(bowData['bow-title'])
-    sample = bowData['samples'][1]
-    dfData = bowData['samples'][1]['df-data']
-    fpsData = sample['fps-data']
-    regression = approximateDrawForceCurve(dfData)
-    print(fpsData)
-    for point in fpsData:
-        calcProjectileEnergy(point, regression['coeffs'], sample['grip-dim']['thickness'])
-
-    #print(regression)

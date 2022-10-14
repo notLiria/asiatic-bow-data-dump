@@ -2,11 +2,13 @@ from re import S
 from .ingestData import *
 from .genArrowCombos import *
 from .dfCurve import *
+from pprint import pprint
 import json
 
 def addRegressionDataToSample(sample):
     sample['central-differences'] = calcCentralDifferences(sample['df-data'])
     regressionData = exponentiallyFitDfData(sample['df-data'])
+    pprint(regressionData)
     sample['regression-estimation'] = regressionData
     sample['longbow-point'] = getLongbowPoint(sample['df-data'], regressionData['coeffs'])
     return sample
@@ -25,10 +27,15 @@ def addProjectileEnergies(sample):
         sample['regression-estimation']['fps-data'] = fitFpsGppData(sample['fps-data'])
         for idx, point in enumerate(sample['fps-data']): 
             measuredEnergyAtPoint = calcProjectileEnergy(point)
-            calculatedEnergyAtPoint = calcEnergyAtPoint(sample['regression-estimation']['coeffs'], sample['df-data'], point['dl'])            
+            dl = point['dl']
+            if (sample['grip-dim']): 
+                if (sample['grip-dim']['thickness']): 
+                    dl = dl - sample['grip-dim']['thickness']/25.4
+            calculatedEnergyAtPoint = calcEnergyAtPoint(sample['regression-estimation']['coeffs'], sample['df-data'], dl)
             sample['fps-data'][idx]['measured-energy'] = measuredEnergyAtPoint
             sample['fps-data'][idx]['stored-energy'] = calculatedEnergyAtPoint
             sample['fps-data'][idx]['efficiency'] = (measuredEnergyAtPoint / calculatedEnergyAtPoint ) * 100                
+            sample['fps-data'][idx]['dl-to-belly'] = dl
         estimatedParameters = estimateVMass(sample)
         sample['regression-estimation']['other-parameters'] = estimatedParameters
     return sample
@@ -50,9 +57,12 @@ def updateData():
             
 
 def latestExperiment(): 
-    bowData = getBowData('/Users/fionahu/BowDataRepo/server/data/bows/jikishin_3')    
-    addRegressionDataToSample(bowData['samples'][2])
-    addProjectileEnergies(bowData['samples'][2])
+    bowData = getBowData('../data/bows/alibow_tang_chang_an_lam')    
+    sample = bowData['samples'][1]
+    sample = addRegressionDataToSample(sample)
+    sample = addProjectileEnergies(sample)
+    pprint(sample)
+
 
     #bowData['samples'][0] = addRegressionDataToSample(bowData['samples'][0])
      #fitFpsGppData(bowData['samples'][0]['fps-data'])

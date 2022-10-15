@@ -74,14 +74,12 @@ def getLongbowPoint(dfData, regressionCoeffs):
         return exponentialDfFunc(x, coeffs)
 
     def integrateLineUpToX (coeffs, x): 
-        xVals = np.linspace(dfData[0]['x'], x, 1)
+        xVals = np.linspace(dfData[0]['x'], x)
         yVals = [np.polyval(coeffs, xVal) for xVal in xVals]
-        return np.trapz(yVals, xVals)
+        return np.trapz(yVals, x = xVals) * 0.113
     
     def integrateDfCurveUpToX(coeffs, x): 
-        xVals = np.linspace(dfData[0]['x'], x, 1)
-        yVals = [exponentialDfFunc(xVal, coeffs) for xVal in xVals]
-        return np.trapz(yVals, xVals)
+        return calcEnergyAtPoint(coeffs, dfData, x)
 
     xVals = [sample['x'] for sample in dfData]
     areaYs = []

@@ -57,8 +57,8 @@ def updateData():
             
 
 def latestExperiment(): 
-    bowData = getBowData('../data/bows/alibow_tang_chang_an_lam')    
-    sample = bowData['samples'][1]
+    bowData = getBowData('../data/bows/alibow_segye_lam')    
+    sample = bowData['samples'][0]
     sample = addRegressionDataToSample(sample)
     sample = addProjectileEnergies(sample)
     pprint(sample)

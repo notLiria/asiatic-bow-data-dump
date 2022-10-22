@@ -8,7 +8,6 @@ import json
 def addRegressionDataToSample(sample):
     sample['central-differences'] = calcCentralDifferences(sample['df-data'])
     regressionData = exponentiallyFitDfData(sample['df-data'])
-    pprint(regressionData)
     sample['regression-estimation'] = regressionData
     sample['longbow-point'] = getLongbowPoint(sample['df-data'], regressionData['coeffs'])
     return sample
@@ -45,19 +44,18 @@ def updateData():
     for i in range(len(listOfBows)): 
         bowData = getBowData(listOfBows[i])
         if 'skip-calcs' not in bowData: 
-            try: 
-                for idx, sample in enumerate(bowData['samples']): 
-                        bowData['samples'][idx] = addRegressionDataToSample(bowData['samples'][idx])
-                        bowData['samples'][idx] = addProjectileEnergies(bowData['samples'][idx])
+            for idx, sample in enumerate(bowData['samples']): 
+                try: 
+                    bowData['samples'][idx] = addRegressionDataToSample(bowData['samples'][idx])
+                    bowData['samples'][idx] = addProjectileEnergies(bowData['samples'][idx])
+                except Exception as e: 
+                    print('Error occured with bow data: ' + str(listOfBows[i]) + " with index " + str(idx))
+                    print(e)
                 f = open(os.path.abspath(os.path.join(listOfBows[i], 'data.json')), 'w')
                 f.write(json.dumps(bowData))
-            except Exception as e: 
-                print('Error occured with bow data: ' + str(listOfBows[i]))
-                print(e)
-            
 
 def latestExperiment(): 
-    bowData = getBowData('../data/bows/alibow_segye_lam')    
+    bowData = getBowData('../data/bows/alibow_tang_chang_an_lam')    
     sample = bowData['samples'][0]
     sample = addRegressionDataToSample(sample)
     sample = addProjectileEnergies(sample)

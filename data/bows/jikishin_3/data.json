@@ -304,8 +304,8 @@
       "bow-mass": 490,
       "grip-dim": {
         "length": "Not measured",
-        "width": "Not measured",
-        "thickness": "Not measured"
+        "width": "29.06",
+        "thickness": "16.36"
       },
       "max-limb-thickness": "Not measured",
       "min-limb-thickness": "Not measured",
@@ -432,7 +432,13 @@
           { "x": "36", "y": 1.104172767024274 },
           { "x": "37", "y": 1.1324945816395613 },
           { "x": "38", "y": 1.161546567253372 }
-        ]
+        ],
+        "fps-data": {
+          "38": {
+            "coeffs": [4.584804999135524, 74.24999999999996],
+            "fitted-line": [{ "x": 16.1948, "y": 148.49999999999994 }]
+          }
+        }
       },
       "central-differences": [
         { "x": 6.0, "y": 2.698333333333333 },
@@ -474,6 +480,10 @@
         "38": 57.20254487962626,
         "33.0": 41.43414503784939
       },
+      "fps-data": [
+        { "dl": 38, "arrow-weight": 498.8, "gpp": 16.1948, "fps": 151 },
+        { "dl": 38, "arrow-weight": 498.8, "gpp": 16.1948, "fps": 146 }
+      ],
       "longbow-point": -1
     }
   ]

@@ -149,6 +149,61 @@
         "28.5": 26.79840161215206
       },
       "longbow-point": 24
+    },
+    {
+      "bow-title": "Alibow Kaiyuan 25@28\"",
+      "unstrung-length": 138.3,
+      "strung-length": 120,
+      "min-box-dim": { "length": 112, "width": 28.3, "depth": 5 },
+      "siyahs": {
+        "effective-top-length": 23.7,
+        "effective-bottom-length": 23.5,
+        "effective-top-angle": 52,
+        "effective-bottom-angle": 52
+      },
+      "bow-mass": 482,
+      "grip-dim": { "length": 102.38, "width": 27.83, "thickness": 32.94 },
+      "max-limb-thickness": 6.94,
+      "min-limb-thickness": 4.6,
+      "max-limb-width": 44.8,
+      "min-limb-width": 33.06,
+      "arrow-pass-width": 31.62,
+      "max-draw": 30,
+      "stock-string-length": { "max": 110.5, "min": 94.8 },
+      "brace-height": 17,
+      "manufacture-date": "",
+      "measurement-date": "Oct-22",
+      "comments": "",
+      "asym": false,
+      "contributed-by": { "instagram": "sinophilic_toxophilite" },
+      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "df-data": [
+        { "x": 7, "y": 0.96 },
+        { "x": 8, "y": 3.25 },
+        { "x": 9, "y": 4.97 },
+        { "x": 10, "y": 6.49 },
+        { "x": 11, "y": 7.63 },
+        { "x": 12, "y": 8.8 },
+        { "x": 13, "y": 9.7 },
+        { "x": 14, "y": 10.6 },
+        { "x": 15, "y": 11.4 },
+        { "x": 16, "y": 12.3 },
+        { "x": 17, "y": 13.3 },
+        { "x": 18, "y": 14.3 },
+        { "x": 19, "y": 15.19 },
+        { "x": 20, "y": 16.18 },
+        { "x": 21, "y": 17.2 },
+        { "x": 22, "y": 18.47 },
+        { "x": 23, "y": 19.74 },
+        { "x": 24, "y": 21.47 },
+        { "x": 25, "y": 22.89 },
+        { "x": 26, "y": 24.63 },
+        { "x": 27, "y": 26.93 },
+        { "x": 28, "y": 29.45 },
+        { "x": 29, "y": 32.8 },
+        { "x": 30, "y": 36 },
+        { "x": 31, "y": 39.8 }
+      ]
     }
   ]
 }

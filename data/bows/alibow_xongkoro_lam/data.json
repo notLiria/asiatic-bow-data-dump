@@ -25,6 +25,158 @@
       "brace-height": 18.6,
       "manufacture-date": "2022-08",
       "measurement-date": "2022-02",
+      "fps-data": [
+        {
+          "dl": 35,
+          "arrow-weight": 818.5,
+          "gpp": 16.37,
+          "fps": 164,
+          "measured-energy": 66.26344487777894,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.31705078744997,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 818.5,
+          "gpp": 16.37,
+          "fps": 164,
+          "measured-energy": 66.26344487777894,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.31705078744997,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 818.5,
+          "gpp": 16.37,
+          "fps": 164,
+          "measured-energy": 66.26344487777894,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.31705078744997,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 818.5,
+          "gpp": 16.37,
+          "fps": 164,
+          "measured-energy": 66.26344487777894,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.31705078744997,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 818.5,
+          "gpp": 16.37,
+          "fps": 164,
+          "measured-energy": 66.26344487777894,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.31705078744997,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 929,
+          "gpp": 18.58,
+          "fps": 155,
+          "measured-energy": 67.18104276506614,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.31847733778704,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 929,
+          "gpp": 18.58,
+          "fps": 155,
+          "measured-energy": 67.18104276506614,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.31847733778704,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 929,
+          "gpp": 18.58,
+          "fps": 154,
+          "measured-energy": 66.31698689766111,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 72.3754842265539,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 929,
+          "gpp": 18.58,
+          "fps": 155,
+          "measured-energy": 67.18104276506614,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.31847733778704,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 929,
+          "gpp": 18.58,
+          "fps": 155,
+          "measured-energy": 67.18104276506614,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.31847733778704,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.1,
+          "gpp": 21.022,
+          "fps": 147,
+          "measured-energy": 68.36697051238346,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 74.61274746351293,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.1,
+          "gpp": 21.022,
+          "fps": 146,
+          "measured-energy": 67.43997146753509,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.60106089741504,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.1,
+          "gpp": 21.022,
+          "fps": 147,
+          "measured-energy": 68.36697051238346,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 74.61274746351293,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.1,
+          "gpp": 21.022,
+          "fps": 146,
+          "measured-energy": 67.43997146753509,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.60106089741504,
+          "dl-to-belly": 33.517716535433074
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.1,
+          "gpp": 21.022,
+          "fps": 146,
+          "measured-energy": 67.43997146753509,
+          "stored-energy": 91.62907524054951,
+          "efficiency": 73.60106089741504,
+          "dl-to-belly": 33.517716535433074
+        }
+      ],
       "comments": "Three piece string with mother of pearl arrow pass. Average of 5 sets of measurements; appears to exhibit some slight hystersis. Siyahs appear to be 6 layers of bamboo and 2 layers of unknown black material.",
       "asym": false,
       "asym-length": { "top": 0, "bottom": 0 },
@@ -122,7 +274,21 @@
           { "x": "32", "y": 1.6188361370225344 },
           { "x": "33", "y": 1.8440597853881004 },
           { "x": "34", "y": 2.1113400304796577 }
-        ]
+        ],
+        "fps-data": {
+          "35": {
+            "coeffs": [-3.7773286898948624, 225.54154714359845],
+            "fitted-line": [
+              { "x": 16.37, "y": 163.70667649001956 },
+              { "x": 18.58, "y": 155.3587800853519 },
+              { "x": 21.022, "y": 146.13454342462865 }
+            ]
+          }
+        },
+        "other-parameters": {
+          "hysteresis": 0.200840538490904,
+          "virtual-mass": 0.016207568980124376
+        }
       },
       "central-differences": [
         { "x": 8.0, "y": 4.8758333333333335 },

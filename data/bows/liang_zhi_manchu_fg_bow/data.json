@@ -28,6 +28,218 @@
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "comments": "Solid fibreglass bows with fibreglass siyahs",
       "asym": false,
+      "fps-data": [
+        {
+          "dl": 38,
+          "arrow-weight": 838,
+          "gpp": 13.35883947,
+          "fps": 182,
+          "measured-energy": 83.5515334040919,
+          "stored-energy": 114.02125076128046,
+          "efficiency": 73.27715916660027,
+          "dl-to-belly": 36.61456692913386
+        },
+        {
+          "dl": 38,
+          "arrow-weight": 838,
+          "gpp": 13.35883947,
+          "fps": 181,
+          "measured-energy": 82.63590707195551,
+          "stored-energy": 114.02125076128046,
+          "efficiency": 72.47412786671269,
+          "dl-to-belly": 36.61456692913386
+        },
+        {
+          "dl": 38,
+          "arrow-weight": 838,
+          "gpp": 13.35883947,
+          "fps": 183,
+          "measured-energy": 84.47220450940809,
+          "stored-energy": 114.02125076128046,
+          "efficiency": 74.08461488136325,
+          "dl-to-belly": 36.61456692913386
+        },
+        {
+          "dl": 38,
+          "arrow-weight": 838,
+          "gpp": 13.35883947,
+          "fps": 181,
+          "measured-energy": 82.63590707195551,
+          "stored-energy": 114.02125076128046,
+          "efficiency": 72.47412786671269,
+          "dl-to-belly": 36.61456692913386
+        },
+        {
+          "dl": 38,
+          "arrow-weight": 838,
+          "gpp": 13.35883947,
+          "fps": 182,
+          "measured-energy": 83.5515334040919,
+          "stored-energy": 114.02125076128046,
+          "efficiency": 73.27715916660027,
+          "dl-to-belly": 36.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 829,
+          "gpp": 15.07272727,
+          "fps": 167,
+          "measured-energy": 69.59132462209224,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 73.6317564222107,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 829,
+          "gpp": 15.07272727,
+          "fps": 167,
+          "measured-energy": 69.59132462209224,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 73.6317564222107,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 829,
+          "gpp": 15.07272727,
+          "fps": 168,
+          "measured-energy": 70.4272489560017,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 74.51621403637544,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 829,
+          "gpp": 15.07272727,
+          "fps": 168,
+          "measured-energy": 70.4272489560017,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 74.51621403637544,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 829,
+          "gpp": 15.07272727,
+          "fps": 168,
+          "measured-energy": 70.4272489560017,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 74.51621403637544,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 960.5,
+          "gpp": 17.46363636,
+          "fps": 158,
+          "measured-energy": 72.17373377881268,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 76.36409875141192,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 960.5,
+          "gpp": 17.46363636,
+          "fps": 158,
+          "measured-energy": 72.17373377881268,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 76.36409875141192,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 960.5,
+          "gpp": 17.46363636,
+          "fps": 159,
+          "measured-energy": 73.0902164581863,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 77.3337918816874,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 960.5,
+          "gpp": 17.46363636,
+          "fps": 159,
+          "measured-energy": 73.0902164581863,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 77.3337918816874,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 960.5,
+          "gpp": 17.46363636,
+          "fps": 159,
+          "measured-energy": 73.0902164581863,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 77.3337918816874,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 152,
+          "measured-energy": 73.15251489194524,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 77.39970732624796,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 151,
+          "measured-energy": 72.19314802853373,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 76.3846401811712,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 153,
+          "measured-energy": 74.11821420990071,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 78.42147458449352,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 153,
+          "measured-energy": 74.11821420990071,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 78.42147458449352,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 153,
+          "measured-energy": 74.11821420990071,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 78.42147458449352,
+          "dl-to-belly": 33.61456692913386
+        },
+        {
+          "dl": 35,
+          "arrow-weight": 1051.9,
+          "gpp": 19.12545455,
+          "fps": 152,
+          "measured-energy": 73.15251489194524,
+          "stored-energy": 94.51265052411587,
+          "efficiency": 77.39970732624796,
+          "dl-to-belly": 33.61456692913386
+        }
+      ],
       "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
       "df-data": [
         { "x": 9, "y": 5.3 },
@@ -159,7 +371,31 @@
           { "x": "35", "y": 2.6453869311432565 },
           { "x": "36", "y": 2.957410059688305 },
           { "x": "37", "y": 3.31241594975621 }
-        ]
+        ],
+        "fps-data": {
+          "35": {
+            "coeffs": [-4.882173203537656, 244.5040163802675],
+            "fitted-line": [
+              { "x": 17.46363636, "y": 159.24351890714962 },
+              { "x": 19.12545455, "y": 151.13023467078017 },
+              { "x": 13.35883947, "y": 179.2838482894723 },
+              { "x": 15.07272727, "y": 170.91635119844221 }
+            ]
+          },
+          "38": {
+            "coeffs": [-4.882173203537656, 244.5040163802675],
+            "fitted-line": [
+              { "x": 17.46363636, "y": 159.24351890714962 },
+              { "x": 19.12545455, "y": 151.13023467078017 },
+              { "x": 13.35883947, "y": 179.2838482894723 },
+              { "x": 15.07272727, "y": 170.91635119844221 }
+            ]
+          }
+        },
+        "other-parameters": {
+          "hysteresis": 0.22708577212625758,
+          "virtual-mass": 0.01764208456068994
+        }
       },
       "longbow-point": -1,
       "stored-energy": {

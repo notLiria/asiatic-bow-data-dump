@@ -35,6 +35,7 @@ def addProjectileEnergies(sample):
             sample['fps-data'][idx]['stored-energy'] = calculatedEnergyAtPoint
             sample['fps-data'][idx]['efficiency'] = (measuredEnergyAtPoint / calculatedEnergyAtPoint ) * 100                
             sample['fps-data'][idx]['dl-to-belly'] = dl
+            sample['fps-data'][idx]['gpp'] = sample['fps-data'][idx]['arrow-weight']/exponentialDfFunc(dl, sample['regression-estimation']['coeffs'])
         estimatedParameters = estimateVMass(sample)
         sample['regression-estimation']['other-parameters'] = estimatedParameters
     return sample

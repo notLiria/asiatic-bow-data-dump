@@ -11,7 +11,7 @@ const records = csvSync.parse(input, {
 });
 
 const keys = Object.keys(records[0]);
-
+console.log(keys);
 const output = records
   .map((record) => {
     return {

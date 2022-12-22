@@ -13,6 +13,108 @@
         "effective-top-angle": 40,
         "effective-bottom-angle": 40
       },
+      "fps-data": [
+        {
+          "dl": 31,
+          "arrow-weight": 435,
+          "gpp": 8.08602599529941,
+          "fps": 201,
+          "measured-energy": 52.899187552743214,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 76.7880413157449,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 435,
+          "gpp": 8.08602599529941,
+          "fps": 199,
+          "measured-energy": 51.85170481612297,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 75.26752367874097,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 435,
+          "gpp": 8.08602599529941,
+          "fps": 199,
+          "measured-energy": 51.85170481612297,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 75.26752367874097,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 435,
+          "gpp": 8.08602599529941,
+          "fps": 199,
+          "measured-energy": 51.85170481612297,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 75.26752367874097,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 435,
+          "gpp": 8.08602599529941,
+          "fps": 199,
+          "measured-energy": 51.85170481612297,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 75.26752367874097,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 555,
+          "gpp": 10.31665385607166,
+          "fps": 181,
+          "measured-energy": 54.72903153333569,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 79.44422833266282,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 555,
+          "gpp": 10.31665385607166,
+          "fps": 180,
+          "measured-energy": 54.125961407773765,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 78.56881651897912,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 555,
+          "gpp": 10.31665385607166,
+          "fps": 180,
+          "measured-energy": 54.125961407773765,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 78.56881651897912,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 555,
+          "gpp": 10.31665385607166,
+          "fps": 180,
+          "measured-energy": 54.125961407773765,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 78.56881651897912,
+          "dl-to-belly": 29.948818897637796
+        },
+        {
+          "dl": 31,
+          "arrow-weight": 555,
+          "gpp": 10.31665385607166,
+          "fps": 180,
+          "measured-energy": 54.125961407773765,
+          "stored-energy": 68.88987744227899,
+          "efficiency": 78.56881651897912,
+          "dl-to-belly": 29.948818897637796
+        }
+      ],
       "bending-section-length": 0,
       "bow-mass": 285,
       "grip-shape": "unknown",
@@ -118,7 +220,17 @@
           { "x": "28", "y": 3.542809029985876 },
           { "x": "29", "y": 3.9550625675913293 },
           { "x": "30", "y": 4.4163008484974045 }
-        ]
+        ],
+        "fps-data": {
+          "31": {
+            "coeffs": [94.89999999999998, 94.89999999999998],
+            "fitted-line": [{ "x": 1.0, "y": 189.79999999999995 }]
+          }
+        },
+        "other-parameters": {
+          "hysteresis": 0.09397425180934738,
+          "virtual-mass": 0.003778104607072341
+        }
       },
       "central-differences": [
         { "x": 7.0, "y": 4.750000000000002 },

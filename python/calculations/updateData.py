@@ -31,11 +31,11 @@ def addProjectileEnergies(sample):
                 if (sample['grip-dim']['thickness']): 
                     dl = dl - sample['grip-dim']['thickness']/25.4
             calculatedEnergyAtPoint = calcEnergyAtPoint(sample['regression-estimation']['coeffs'], sample['df-data'], dl)
+            sample['fps-data'][idx]['gpp'] = sample['fps-data'][idx]['arrow-weight']/exponentialDfFunc(dl, sample['regression-estimation']['coeffs'])
             sample['fps-data'][idx]['measured-energy'] = measuredEnergyAtPoint
             sample['fps-data'][idx]['stored-energy'] = calculatedEnergyAtPoint
             sample['fps-data'][idx]['efficiency'] = (measuredEnergyAtPoint / calculatedEnergyAtPoint ) * 100                
             sample['fps-data'][idx]['dl-to-belly'] = dl
-            sample['fps-data'][idx]['gpp'] = sample['fps-data'][idx]['arrow-weight']/exponentialDfFunc(dl, sample['regression-estimation']['coeffs'])
         estimatedParameters = estimateVMass(sample)
         sample['regression-estimation']['other-parameters'] = estimatedParameters
     return sample
@@ -56,8 +56,8 @@ def updateData():
                 f.write(json.dumps(bowData))
 
 def latestExperiment(): 
-    bowData = getBowData('../data/bows/alibow_tang_chang_an_lam')    
-    sample = bowData['samples'][0]
+    bowData = getBowData('../data/bows/alibow_qinghai_lam')    
+    sample = bowData['samples'][1]
     sample = addRegressionDataToSample(sample)
     sample = addProjectileEnergies(sample)
     pprint(sample)

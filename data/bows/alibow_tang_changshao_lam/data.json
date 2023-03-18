@@ -2651,7 +2651,7 @@
         }
       ],
       "stock-string-length": { "max": 138.3, "min": 121.6 },
-      "brace-height": "Not Measured",
+      "brace-height": 17,
       "manufacture-date": "2/23",
       "measurement-date": "3/23",
       "comments": "shit handle",

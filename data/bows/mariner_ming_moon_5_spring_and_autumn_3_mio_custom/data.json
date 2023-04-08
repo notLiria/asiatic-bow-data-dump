@@ -20,6 +20,7 @@
       "max-limb-width": 37,
       "min-limb-width": 35.3,
       "arrow-pass-width": 17.3,
+      "contributed-by": { "discord": "Mioshio#3201" },
       "max-draw": 33,
       "stock-string-length": { "max": 146.7, "min": 124.8 },
       "brace-height": 16,

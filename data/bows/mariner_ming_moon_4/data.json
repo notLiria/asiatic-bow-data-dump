@@ -24,6 +24,7 @@
       "stock-string-length": { "max": 124.3, "min": 107.6 },
       "brace-height": 16,
       "manufacture-date": "2023/03",
+      "contributed-by": { "discord": "Mioshio#3201" },
       "measurement-date": "2023/03",
       "comments": "Has Ming style tips and small bridges",
       "asym": false,

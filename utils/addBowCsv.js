@@ -12,6 +12,7 @@ async function addBowData(bowType, csvFile) {
     console.log(`Searching for directory ${bowDir}`);
     if (!fs.existsSync(bowDir)) {
       console.log(`Directory ${bowDir} not found, creating instead.`);
+      console.log(`Make sure to update bow title and link manually.`);
       fs.mkdirSync(bowDir, { recursive: true });
     }
 
@@ -26,32 +27,22 @@ async function addBowData(bowType, csvFile) {
 
     fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
     console.log(`Data successfully written to ${dataFile}`);
-    /*
-    // Run the add-calcs script
-    const python = spawn('python', ['./python/calculations/updateData.py']);
-    python.stdout.on('data', (data) => {
-      console.log(`stdout: ${data}`);
-    });
-    python.stderr.on('data', (data) => {
-      console.error(`stderr: ${data}`);
-    });
-    python.on('close', (code) => {
-      console.log(`child process exited with code ${code}`);
-    });
-    */
-    /*
-    const cleanup = spawn('npm', ['run add-calcs']);
-    cleanup.stdout.on('data', (data) => {
-      console.log(`stdout: ${data}`);
-    });
-    cleanup.stderr.on('data', (data) => {
-      console.error(`stderr: ${data}`);
-    });
-    cleanup.on('close', (code) => {
-      console.log(`child process exited with code ${code}`);
-    });
-    */
+
+    runNpmScript('add-calcs');
   }
+}
+
+function runNpmScript(scriptName) {
+  const npmCmd = process.platform === 'win32' ? 'npm.cmd' : 'npm';
+  const childProcess = spawn(npmCmd, ['run', scriptName], { stdio: 'inherit' });
+
+  childProcess.on('exit', (code) => {
+    if (code === 0) {
+      console.log(`npm script '${scriptName}' completed successfully.`);
+    } else {
+      console.error(`npm script '${scriptName}' exited with code ${code}.`);
+    }
+  });
 }
 
 // Usage: node addBowData.js "Alibow New" "someRandomBow.csv"

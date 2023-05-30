@@ -1,31 +1,38 @@
+from tkinter import Y
+from .ingestData import *
 import numpy as np
-import matplotlib.pyplot as plt
 from findiff import FinDiff
+import matplotlib.pyplot as plt
 from scipy import integrate
 from scipy.optimize import curve_fit
 from lmfit import Model
-from .ingestData import *
 
-# Constants
-GPP_TO_KG = 6.4798910000174E-5
-FPS_TO_MS = 0.3048
-
-
-def exponentialDfFunc(x, coeffs):
+def exponentialDfFunc(x, coeffs): 
+    # Takes coefficients in the form of lambda1, lambda2, p0, p1, c, for the derivative
     return coeffs[2]/coeffs[0] * np.exp(coeffs[0] * x) + coeffs[3]/coeffs[1] * np.exp(coeffs[1] * x) + coeffs[4]
 
 def stringifyPolynomial(poly):
-    return ' + '.join([f'{coef}x^{len(poly) - i}' for i, coef in enumerate(poly[:-1])]) + f' + {poly[-1]}'
+    # Assumes that poly is a power series
+    output = ''
+    for i in range(len(poly) - 1):
+        output += str(poly[i]) + 'x^' + str(len(poly) - i) + ' + '
+    return output + str(poly[-1])
 
 def calcEnergy(coeffs, dfData):
     xVals = [sample['x'] for sample in dfData]
     yVals = [exponentialDfFunc(x, coeffs) /0.22481 for x in xVals]
-    return np.trapz(yVals, dx = 0.0254)
+    totalEnergy = np.trapz(yVals, dx = 0.0254)
+    return totalEnergy
 
 def calcEnergyAtPoint(regressionCoeffs, dfData, dLToBelly):
-    if (dLToBelly > max(dfData['x']) or dLToBelly < min(dfData['x'])):
+    # Assume regression coefficients are in the format of [l[0], l[1], P[0], P[1], constant]
+    originalX = [point['x'] for point in dfData]
+    if (dLToBelly > max(originalX) or dLToBelly < min(originalX) ):
+        print(originalX)
+        print(dLToBelly)
         raise Exception('Draw length out of bounds')
-    xVals = np.linspace(min(dfData['x']), dLToBelly, 100)
+    xVals = np.linspace(min(originalX), dLToBelly, 100)
+    dX = (dLToBelly - min(originalX))/50
     yVals = [exponentialDfFunc(x, regressionCoeffs) for x in xVals]
     return np.trapz(yVals, x = xVals) * 0.113
 
@@ -34,15 +41,19 @@ def calcCentralDifferences(dfData):
     xVals = np.asarray([point['x'] for point in dfData])
     yVals = np.asarray([point['y'] for point in dfData])
     centralDifferences = dx(yVals)
-    return [{'x': float(xVal), 'y': float(yVal)} for xVal, yVal in zip(xVals, centralDifferences)]
+    output = [{'x': float(xVal), 'y': float(yVal)} for xVal, yVal in zip(xVals, centralDifferences)]
+    return output
+
 
 def calcProjectileEnergy(fpsDataPoint):
-    v = fpsDataPoint['fps'] * FPS_TO_MS
-    m = fpsDataPoint['arrow-weight'] * GPP_TO_KG
-    return 0.5 * m * v * v
+    # Assume that data looks like {fps: #, gpp: #, dl: # }
+    v = fpsDataPoint['fps'] * 0.3048
+    m = fpsDataPoint['arrow-weight'] * 6.4798910000174E-5
+    energy = 1/2 * m * v * v
+    return energy
 
-# Main functions
 def fitFpsGppData(fpsData):
+    # Assume that data looks like {fps: #, gpp: #, dl: #}
     dlGroups = [*set([sample['dl'] for sample in fpsData])]
     output = {}
     for dl in dlGroups:
@@ -52,9 +63,8 @@ def fitFpsGppData(fpsData):
         yVals = np.asarray([sample['fps'] for sample in fpsData])
         regressionEqn = np.polyfit(xVals, yVals, 1)
         output[dlKey]['coeffs'] = regressionEqn.tolist()
-        output[dlKey]['fitted-line'] = [{'x' : float(x), 'y': float(np.polyval(regressionEqn, x))} for x in [*set(xVals)]]
+        output[dlKey]['fitted-line'] = list([{'x' : float(x), 'y': float(np.polyval(regressionEqn, x))} for x in [*set(xVals)]])
     return output
-
 
 def getLongbowPoint(dfData, regressionCoeffs):
     def getLine(p1, p2):
@@ -115,7 +125,8 @@ def exponentiallyFitDfData(dfData):
     output['regression-derivative'] = str(P[0]) + 'e^' + str(lambdas[0]) + "x + "  + str(P[1]) + "e^" + str(lambdas[1]) + "x"
     output['regression-derivative-values'] = [{'x': str(x), 'y': float(derivativeFunc(x, *[*lambdas, *P]))} for x in xVals]
     return output
-    
+
+
 def estimateVMass(sample): 
     def virtualMassEstimator(w, mA, r, K): 
         return np.sqrt((2 * w * mA * (1 - r))/(mA * (K + mA)))
@@ -135,8 +146,19 @@ def estimateVMass(sample):
     
     fit = estimator.fit(vArrows, w = peBows, mA = mArrows)
     estimator2.set_param_hint('K', min = 0, max = 1, value = 0.002)
+    #rVals = [fit.best_values['r'] for point in fpsData]
+    
+    #print(fit2.fit_report())
     hysteresis = fit.best_values['r']
     eHist = peBows - hysteresis * peBows - keArrows
-
+    #print(eHist)
     fit2 = estimator2.fit(vArrows, w = peBows, eHist=eHist, mA = mArrows)
+    #print(fit2.fit_report())
+#    print(energyLost)
+    
+    #print(hysteresis)
+    #print(vMass)
     return {'hysteresis': float(fit.best_values['r']), 'virtual-mass': float(fit2.best_values['K'])}
+
+def start():
+    print('hello world2')

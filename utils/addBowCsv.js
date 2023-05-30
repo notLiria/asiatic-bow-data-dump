@@ -25,9 +25,7 @@ async function addBowData(bowType, csvFile) {
     fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
 
     // Run the add-calcs script
-    const python = spawn('python', [
-      'path/to/your/python/calculations/updateData.py',
-    ]);
+    const python = spawn('python', ['./python/calculations/updateData.py']);
     python.stdout.on('data', (data) => {
       console.log(`stdout: ${data}`);
     });

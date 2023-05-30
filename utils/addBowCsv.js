@@ -8,8 +8,10 @@ async function addBowData(bowType, csvFile) {
 
   if (write === undefined) {
     // Check if the bow type directory exists, if not create it
-    const bowDir = path.join(__dirname, 'data', 'bows', bowType);
+    const bowDir = path.join(__dirname, '..', 'data', 'bows', bowType);
+    console.log(`Searching for directory ${bowDir}`);
     if (!fs.existsSync(bowDir)) {
+      console.log(`Directory ${bowDir} not found, creating instead.`);
       fs.mkdirSync(bowDir, { recursive: true });
     }
 
@@ -23,7 +25,8 @@ async function addBowData(bowType, csvFile) {
     data.samples.push(jsonData);
 
     fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
-
+    console.log(`Data successfully written to ${dataFile}`);
+    /*
     // Run the add-calcs script
     const python = spawn('python', ['./python/calculations/updateData.py']);
     python.stdout.on('data', (data) => {
@@ -35,6 +38,19 @@ async function addBowData(bowType, csvFile) {
     python.on('close', (code) => {
       console.log(`child process exited with code ${code}`);
     });
+    */
+    /*
+    const cleanup = spawn('npm', ['run add-calcs']);
+    cleanup.stdout.on('data', (data) => {
+      console.log(`stdout: ${data}`);
+    });
+    cleanup.stderr.on('data', (data) => {
+      console.error(`stderr: ${data}`);
+    });
+    cleanup.on('close', (code) => {
+      console.log(`child process exited with code ${code}`);
+    });
+    */
   }
 }
 

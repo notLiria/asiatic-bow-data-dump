@@ -11,7 +11,7 @@
         "effective-top-length": 17,
         "effective-bottom-length": 17.5,
         "effective-top-angle": 38.3,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 386,
       "grip-dim": { "length": 86.33, "width": 25.5, "thickness": 33.01 },
@@ -27,7 +27,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 2.36 },
         { "x": 9, "y": 4.11 },

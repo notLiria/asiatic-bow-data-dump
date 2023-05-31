@@ -28,7 +28,7 @@
       "comments": "Small bridges, like the Dashao ",
       "asym": false,
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 3.12 },
         { "x": 9, "y": 5.63 },

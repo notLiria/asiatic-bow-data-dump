@@ -13,7 +13,7 @@
         "effective-top-angle": 25,
         "effective-bottom-angle": 24
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": { "length": 76.2, "width": 27.21, "thickness": 32.94 },
       "max-limb-thickness": 5.85,
       "min-limb-thickness": 4.66,
@@ -28,7 +28,7 @@
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "comments": "Customized with a smaller handle. Very very small tips. ",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 3.4 },
         { "x": 8, "y": 7.03 },

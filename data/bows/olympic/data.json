@@ -4,38 +4,38 @@
   "samples": [
     {
       "bow-title": "Olympic Recurve 1",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 22.5,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "ATFX Riser 25\", MXT-10 Foam Long 46# Limbs",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 1.3 },
         { "x": 10, "y": 7.3 },
@@ -157,38 +157,38 @@
     },
     {
       "bow-title": "Olympic Recurve 2",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 24.7,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "72\" ATF-X Riser 27\" Inno EX Prime Long 40# Limbs",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 11, "y": 6 },
         { "x": 12, "y": 9.7 },

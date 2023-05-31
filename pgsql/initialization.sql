@@ -44,5 +44,6 @@ CREATE TABLE Samples (
    CentralDifferences JSONB,
    RegressionEstimation JSONB NOT NULL,
    LongbowPoint INT,
-   StoredEnergy FLOAT[][]
+   StoredEnergy FLOAT[][],
+   DfHash VARCHAR(255) UNIQUE
 );

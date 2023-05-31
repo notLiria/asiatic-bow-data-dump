@@ -587,7 +587,7 @@
           "dl-to-belly": 33.574803149606296
         }
       ],
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": { "length": 88.63, "width": 28.36, "thickness": 36.2 },
       "max-limb-thickness": 7.16,
       "min-limb-thickness": 6.4,
@@ -601,7 +601,7 @@
       "measurement-date": "2022-10",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 4.455 },
         { "x": 9, "y": 8.35 },
@@ -1156,7 +1156,7 @@
       "comments": "Birds eye maple edition",
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2.5 },
         { "x": 8, "y": 6.49 },
@@ -1366,7 +1366,7 @@
       "measurement-date": "2022-11",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "df-data": [
         { "x": 8, "y": 4.67 },
@@ -1506,11 +1506,11 @@
       "min-box-dim": { "length": 138, "width": 31, "depth": 4 },
       "siyahs": {
         "effective-top-length": 29.5,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 30.3,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": { "length": 90.75, "width": 27.14, "thickness": 35.5 },
       "max-limb-thickness": 6.4,
       "min-limb-thickness": 5.6,
@@ -1524,7 +1524,7 @@
       "measurement-date": "Jan-23",
       "comments": "Trapezoidal limb is more pronounced than in older versions",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 3.95 },
         { "x": 9, "y": 7.61 },
@@ -1664,8 +1664,8 @@
       "siyahs": {
         "effective-top-length": 32,
         "effective-bottom-length": 33,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 181,
       "grip-dim": { "length": 85, "width": 25, "thickness": 35 },

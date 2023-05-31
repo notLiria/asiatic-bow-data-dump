@@ -5,13 +5,13 @@
     {
       "bow-title": "AF Turkish Que Ye 29#@28\"",
       "unstrung-length": 152,
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": { "length": 129, "width": 27, "depth": 4 },
       "siyahs": {
         "effective-top-length": 24,
         "effective-bottom-length": 24,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 358,
       "grip-dim": { "length": 95, "width": 31, "thickness": 38 },
@@ -169,8 +169,8 @@
       "siyahs": {
         "effective-top-length": 21,
         "effective-bottom-length": 21,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 272,
       "grip-dim": { "length": 95, "width": 35, "thickness": 32 },

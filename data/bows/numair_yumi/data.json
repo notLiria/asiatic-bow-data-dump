@@ -4,39 +4,39 @@
   "samples": [
     {
       "bow-title": "Numair Yumi - 23#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 34,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 14.7,
       "manufacture-date": "",
       "measurement-date": "",
       "contributed-by": { "facebook": "R Sauqi" },
       "comments": "Measured by R Sauqi",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 6, "y": 0.99 },
         { "x": 7, "y": 2.53 },
@@ -178,39 +178,39 @@
     },
     {
       "bow-title": "Numair Yumi - 26#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "contributed-by": { "facebook": "R Sauqi" },
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 35,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 15,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "Measured by R Sauqi; Numair Yumi Flat",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 6, "y": 2.8 },
         { "x": 7, "y": 3.9 },
@@ -352,39 +352,39 @@
     },
     {
       "bow-title": "Numair Yumi - 29#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "contributed-by": { "facebook": "R Sauqi" },
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 34,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 17.8,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "Measured by R Sauqi",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 3.96 },
         { "x": 9, "y": 6.17 },

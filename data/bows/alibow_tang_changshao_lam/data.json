@@ -559,7 +559,7 @@
         "effective-top-length": 26.7,
         "effective-bottom-length": 25.8,
         "effective-top-angle": 32.5,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 407,
       "grip-dim": { "length": 85.22, "width": 25.31, "thickness": 31.97 },
@@ -575,7 +575,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 1.11 },
         { "x": 8, "y": 2.85 },
@@ -715,9 +715,9 @@
       "min-box-dim": { "length": 144.4, "width": 18.5, "depth": 4 },
       "siyahs": {
         "effective-top-length": 27,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 32,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 425,
       "grip-dim": { "length": 86.7, "width": 24.3, "thickness": 32.65 },
@@ -734,7 +734,7 @@
       "comments": "",
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2 },
         { "x": 8, "y": 5.03 },
@@ -873,9 +873,9 @@
       "min-box-dim": { "length": 146, "width": 17.5, "depth": 3.8 },
       "siyahs": {
         "effective-top-length": 27,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 31.7,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 413,
       "grip-dim": { "length": 83.6, "width": 27.3, "thickness": 34.53 },
@@ -891,7 +891,7 @@
       "measurement-date": "Jan-23",
       "comments": "Weird grip shape. Recommend rewrapping the grip.",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 1.84 },
         { "x": 8, "y": 4.61 },
@@ -1022,13 +1022,13 @@
     {
       "bow-title": "Changshao - 19#@28\"",
       "unstrung-length": 154.5,
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": { "length": 144.5, "width": 18.5, "depth": 4 },
       "siyahs": {
         "effective-top-length": 27.5,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 32,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 408,
       "grip-dim": { "length": 82.7, "width": 25.34, "thickness": 31.4 },
@@ -1044,7 +1044,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2.22 },
         { "x": 8, "y": 3.79 },
@@ -1172,13 +1172,13 @@
     {
       "bow-title": "Changshao - 25#@28\"",
       "unstrung-length": 154.6,
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": { "length": 145, "width": 18.2, "depth": 4 },
       "siyahs": {
         "effective-top-length": 27,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 32,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 411,
       "grip-dim": { "length": 87.12, "width": 24.9, "thickness": 32.75 },
@@ -1194,7 +1194,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2.06 },
         { "x": 8, "y": 4.73 },
@@ -1329,9 +1329,9 @@
       "min-box-dim": { "length": 144.5, "width": 18.4, "depth": 3.8 },
       "siyahs": {
         "effective-top-length": 26.5,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 32,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 411,
       "grip-dim": { "length": 87.28, "width": 26.3, "thickness": 32.5 },
@@ -1347,7 +1347,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 1.9 },
         { "x": 8, "y": 3.64 },
@@ -1482,9 +1482,9 @@
       "min-box-dim": { "length": 144.5, "width": 18, "depth": 4 },
       "siyahs": {
         "effective-top-length": 27,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 32,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 385,
       "grip-dim": { "length": 87.96, "width": 25.04, "thickness": 32.4 },
@@ -1500,7 +1500,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 1.7 },
         { "x": 8, "y": 4.13 },

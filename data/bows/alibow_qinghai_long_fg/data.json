@@ -461,9 +461,9 @@
       "min-box-dim": { "length": 128, "width": 28.5, "depth": 3.6 },
       "siyahs": {
         "effective-top-length": 19.5,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 43,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 522,
       "grip-dim": { "length": 91.25, "width": 25, "thickness": 27.3 },
@@ -479,7 +479,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 1.53 },
         { "x": 8, "y": 3.88 },
@@ -628,7 +628,7 @@
       "arrow-pass-width": 22.5,
       "max-draw": 35,
       "stock-string-length": { "max": 153.8, "min": 137.3 },
-      "brace-height": "Not Measured",
+      "brace-height": -1,
       "manufacture-date": "2022/06",
       "measurement-date": "2022/08",
       "comments": "",

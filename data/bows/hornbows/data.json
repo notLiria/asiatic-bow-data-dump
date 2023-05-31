@@ -3,38 +3,38 @@
   "samples": [
     {
       "bow-title": "Qingyang Li Manchu Hornbow",
-      "unstrung-length": "Not Measured",
+      "unstrung-length": -1,
       "strung-length": 152,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
         "effective-top-angle": 46.5,
         "effective-bottom-angle": 46.5
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
+        "length": -1,
+        "width": -1,
         "thickness": 30.6
       },
       "max-limb-thickness": 15.2,
       "min-limb-thickness": 13.8,
       "max-limb-width": 41.9,
       "min-limb-width": 39.5,
-      "arrow-pass-width": "Not Measured",
+      "arrow-pass-width": -1,
       "max-draw": 35,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 19.5,
       "manufacture-date": "2019",
       "measurement-date": "2022-10",
       "comments": "Bow was left strung for a year in Malaysia and not taken care of before finally being delivered to Caeser",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "df-data": [
         { "x": 8, "y": 1.16 },

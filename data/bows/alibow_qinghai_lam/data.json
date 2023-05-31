@@ -183,7 +183,7 @@
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "comments": "Drawn  to 35\" because the owner's dl is 35\"; very thoroughly abused bow, has been dryfired at 34\", shot with 210 grn arrows",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2.61 },
         { "x": 8, "y": 6.9 },

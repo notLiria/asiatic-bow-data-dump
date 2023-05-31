@@ -126,39 +126,39 @@
     },
     {
       "bow-title": "Jikishin 3 13kg",
-      "unstrung-length": "Not measured",
-      "strung-length": "Not measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not measured",
-        "width": "Not measured",
-        "depth": "Not measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not measured",
-        "effective-bottom-length": "Not measured",
-        "effective-top-angle": "Not measured",
-        "effective-bottom-angle": "Not measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 490,
       "grip-dim": {
-        "length": "Not measured",
-        "width": "Not measured",
-        "thickness": "Not measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not measured",
-      "min-limb-thickness": "Not measured",
-      "max-limb-width": "Not measured",
-      "min-limb-width": "Not measured",
-      "arrow-pass-width": "Not measured",
-      "max-draw": "Not measured",
-      "stock-string-length": { "max": "Not measured", "min": "Not measured" },
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 15.2,
       "manufacture-date": "2013",
       "measurement-date": "2022-08",
       "comments": "Measuring was stopped at 31\" at the request of owner.",
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "asym": false,
-      "asym-length": { "top": "Not measured", "bottom": "Not measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 6, "y": 0.5 },
         { "x": 7, "y": 2.69 },
@@ -288,39 +288,39 @@
     },
     {
       "bow-title": "Jikishin 3 13kg Nobi",
-      "unstrung-length": "Not measured",
-      "strung-length": "Not measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not measured",
-        "width": "Not measured",
-        "depth": "Not measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not measured",
-        "effective-bottom-length": "Not measured",
-        "effective-top-angle": "Not measured",
-        "effective-bottom-angle": "Not measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 490,
       "grip-dim": {
-        "length": "Not measured",
+        "length": -1,
         "width": "29.06",
         "thickness": "16.36"
       },
-      "max-limb-thickness": "Not measured",
-      "min-limb-thickness": "Not measured",
-      "max-limb-width": "Not measured",
-      "min-limb-width": "Not measured",
-      "arrow-pass-width": "Not measured",
-      "max-draw": "Not measured",
-      "stock-string-length": { "max": "Not measured", "min": "Not measured" },
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 14.9,
-      "manufacture-date": "Not measured",
-      "measurement-date": "Not measured",
+      "manufacture-date": -1,
+      "measurement-date": -1,
       "comments": "Actual draw length of user is 96cm. Distance from string to base of siyah is .233 inches.",
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "asym": false,
-      "asym-length": { "top": "Not measured", "bottom": "Not measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 6, "y": 0.25 },
         { "x": 7, "y": 2.27 },
@@ -489,13 +489,13 @@
     {
       "bow-title": "Jikishin III Nami",
       "unstrung-length": 222.9,
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": { "length": 221.6, "width": 11.8, "depth": 2.5 },
       "siyahs": {
         "effective-top-length": 17.4,
         "effective-bottom-length": 12,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 493,
       "grip-dim": { "length": 98.5, "width": 21.63, "thickness": 21.99 },
@@ -504,7 +504,7 @@
       "max-limb-width": 25.55,
       "min-limb-width": 22.22,
       "arrow-pass-width": 27.25,
-      "max-draw": "Not Measured",
+      "max-draw": -1,
       "stock-string-length": { "max": 214, "min": 209.5 },
       "brace-height": 14.5,
       "manufacture-date": "",

@@ -20,7 +20,7 @@
       "max-limb-width": 36.55,
       "min-limb-width": 31.93,
       "arrow-pass-width": 28.2,
-      "max-draw": "Not Measured",
+      "max-draw": -1,
       "stock-string-length": { "max": 160.3, "min": 71.7 },
       "brace-height": 20.5,
       "manufacture-date": "",
@@ -540,7 +540,7 @@
           "dl-to-belly": 26.614566929133858
         }
       ],
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 5.3 },
         { "x": 10, "y": 9.94 },

@@ -28,7 +28,7 @@
       "comments": "",
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 6, "y": 2.56 },
         { "x": 7, "y": 9.8 },

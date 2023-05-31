@@ -4,39 +4,39 @@
   "samples": [
     {
       "bow-title": "Tiron 50\" - 104#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
-      "brace-height": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
+      "brace-height": -1,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "",
       "contributed-by": { "instagram": "e88305060" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 17.2 },
         { "x": 10, "y": 23.9 },
@@ -150,39 +150,39 @@
     },
     {
       "bow-title": "Tiron 50\" - 99#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
-      "brace-height": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
+      "brace-height": -1,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "",
       "contributed-by": { "instagram": "e88305060" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 14.3 },
         { "x": 10, "y": 21.4 },
@@ -296,39 +296,39 @@
     },
     {
       "bow-title": "Tiron 68\" - 102#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
-      "brace-height": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
+      "brace-height": -1,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "",
       "contributed-by": { "instagram": "e88305060" },
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 5 },
         { "x": 10, "y": 14.8 },
@@ -466,39 +466,39 @@
     },
     {
       "bow-title": "Tiron 55\" - 105#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
-      "brace-height": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
+      "brace-height": -1,
       "manufacture-date": "",
       "measurement-date": "",
       "contributed-by": { "instagram": "e88305060" },
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 6.8 },
         { "x": 10, "y": 16.4 },
@@ -621,38 +621,38 @@
     {
       "bow-title": "MR Tiron 60\" - 92#@28\"",
       "contributed-by": { "facebook": "R Sauqi" },
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 34,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 20,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "Measured by R Sauqi",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 12.7 },
         { "x": 10, "y": 20.8 },
@@ -782,39 +782,39 @@
     },
     {
       "bow-title": "MR Tiron 60\" - 96#@28\"",
-      "unstrung-length": "Not Measured",
+      "unstrung-length": -1,
       "contributed-by": { "facebook": "R Sauqi" },
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 34,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 20,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "Measured by R Sauqi",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 12.6 },
         { "x": 10, "y": 20.8 },
@@ -944,39 +944,39 @@
     },
     {
       "bow-title": "MR Tiron 60\" - 88#@28\"",
-      "unstrung-length": "Not Measured",
+      "unstrung-length": -1,
       "contributed-by": { "facebook": "R Sauqi" },
-      "strung-length": "Not Measured",
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "max-draw": 34,
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
+      "stock-string-length": { "max": -1, "min": -1 },
       "brace-height": 20,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "Measured by R Sauqi",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 6.2 },
         { "x": 10, "y": 14.8 },
@@ -1106,39 +1106,39 @@
     },
     {
       "bow-title": "Tiron 68\" - 126#@28\"",
-      "unstrung-length": "Not Measured",
-      "strung-length": "Not Measured",
+      "unstrung-length": -1,
+      "strung-length": -1,
       "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "depth": -1
       },
       "siyahs": {
-        "effective-top-length": "Not Measured",
-        "effective-bottom-length": "Not Measured",
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-length": -1,
+        "effective-bottom-length": -1,
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "thickness": "Not Measured"
+        "length": -1,
+        "width": -1,
+        "thickness": -1
       },
-      "max-limb-thickness": "Not Measured",
-      "min-limb-thickness": "Not Measured",
-      "max-limb-width": "Not Measured",
-      "min-limb-width": "Not Measured",
-      "arrow-pass-width": "Not Measured",
+      "max-limb-thickness": -1,
+      "min-limb-thickness": -1,
+      "max-limb-width": -1,
+      "min-limb-width": -1,
+      "arrow-pass-width": -1,
       "contributed-by": { "instagram": "e88305060" },
-      "max-draw": "Not Measured",
-      "stock-string-length": { "max": "Not Measured", "min": "Not Measured" },
-      "brace-height": "Not Measured",
+      "max-draw": -1,
+      "stock-string-length": { "max": -1, "min": -1 },
+      "brace-height": -1,
       "manufacture-date": "",
       "measurement-date": "",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 10, "y": 13.4 },
         { "x": 11, "y": 24.6 },

@@ -670,7 +670,7 @@
         "effective-top-length": 24,
         "effective-bottom-length": 23.3,
         "effective-top-angle": 49.4,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 756,
       "grip-dim": { "length": 91.31, "width": 27.31, "thickness": 33.11 },
@@ -686,7 +686,7 @@
       "measurement-date": "Jan-23",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 2.27 },
         { "x": 10, "y": 5.11 },
@@ -825,9 +825,9 @@
       "min-box-dim": { "length": 137.5, "width": 29.5, "depth": 4.1 },
       "siyahs": {
         "effective-top-length": 29,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 47.7,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 745,
       "grip-dim": { "length": 92.23, "width": 27.96, "thickness": 34.37 },
@@ -844,7 +844,7 @@
       "comments": "",
       "asym": false,
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 9, "y": 2.7 },
         { "x": 10, "y": 5.7 },

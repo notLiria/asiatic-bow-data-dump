@@ -10,8 +10,8 @@
       "siyahs": {
         "effective-top-length": 25,
         "effective-bottom-length": 24,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 230,
       "grip-dim": { "length": 85, "width": 32, "thickness": 35 },
@@ -21,7 +21,7 @@
       "min-limb-width": 25,
       "arrow-pass-width": 30,
       "contributed-by": { "instagram": "https://www.instagram.com/broth141/" },
-      "max-draw": "Not Measured",
+      "max-draw": -1,
       "stock-string-length": { "max": 122, "min": 105 },
       "brace-height": 14,
       "manufacture-date": "2022-06",

@@ -10,10 +10,10 @@
       "siyahs": {
         "effective-top-length": 26.5,
         "effective-bottom-length": 26,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
-      "bow-mass": "Not Measured",
+      "bow-mass": -1,
       "grip-dim": { "length": 90.74, "width": 34.3, "thickness": 37.4 },
       "max-limb-thickness": 7.45,
       "min-limb-thickness": 7316,
@@ -27,7 +27,7 @@
       "measurement-date": "2023-02",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 8, "y": 3.67 },
         { "x": 9, "y": 9.16 },

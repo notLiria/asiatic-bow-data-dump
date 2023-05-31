@@ -8,10 +8,10 @@
       "strung-length": 143,
       "min-box-dim": { "length": 149, "width": 12.2, "depth": 3.9 },
       "siyahs": {
-        "effective-top-length": "Not Measured",
+        "effective-top-length": -1,
         "effective-bottom-length": 9,
         "effective-top-angle": 13.5,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 305,
       "grip-dim": { "length": 100.34, "width": 28.6, "thickness": 21 },

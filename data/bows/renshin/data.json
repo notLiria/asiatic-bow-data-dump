@@ -11,8 +11,8 @@
       "siyahs": {
         "effective-top-length": 17.2,
         "effective-bottom-length": 11.9,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 529,
       "grip-dim": { "length": 90.32, "width": 28, "thickness": 18.79 },
@@ -21,7 +21,7 @@
       "max-limb-width": 26.76,
       "min-limb-width": 21.08,
       "arrow-pass-width": 30,
-      "max-draw": "Not Measured",
+      "max-draw": -1,
       "stock-string-length": { "max": 220.2, "min": 215.4 },
       "brace-height": 15.2,
       "manufacture-date": "",
@@ -200,8 +200,8 @@
       "siyahs": {
         "effective-top-length": 17,
         "effective-bottom-length": 12,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 503,
       "grip-dim": { "length": 105.5, "width": 27.52, "thickness": 20.36 },
@@ -210,7 +210,7 @@
       "max-limb-width": 25.31,
       "min-limb-width": 22.92,
       "arrow-pass-width": 27.76,
-      "max-draw": "Not Measured",
+      "max-draw": -1,
       "stock-string-length": { "max": 215.2, "min": 210.7 },
       "brace-height": 13.4,
       "manufacture-date": "",

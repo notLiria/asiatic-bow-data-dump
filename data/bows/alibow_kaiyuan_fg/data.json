@@ -176,7 +176,7 @@
       "comments": "",
       "asym": false,
       "contributed-by": { "instagram": "sinophilic_toxophilite" },
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 0.96 },
         { "x": 8, "y": 3.25 },
@@ -307,9 +307,9 @@
       "min-box-dim": { "length": 117.2, "width": 29.5, "depth": 4.8 },
       "siyahs": {
         "effective-top-length": 23.05,
-        "effective-bottom-length": "Not Measured",
+        "effective-bottom-length": -1,
         "effective-top-angle": 39.7,
-        "effective-bottom-angle": "Not Measured"
+        "effective-bottom-angle": -1
       },
       "bow-mass": 514,
       "grip-dim": { "length": 88.4, "width": 25.86, "thickness": 33 },
@@ -325,7 +325,7 @@
       "measurement-date": "",
       "comments": "",
       "asym": false,
-      "asym-length": { "top": "Not Measured", "bottom": "Not Measured" },
+      "asym-length": { "top": -1, "bottom": -1 },
       "df-data": [
         { "x": 7, "y": 2.62 },
         { "x": 8, "y": 4.61 },

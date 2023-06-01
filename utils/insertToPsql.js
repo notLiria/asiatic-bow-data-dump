@@ -100,6 +100,7 @@ async function main() {
           regressionEstimation: JSON.stringify(sample['regression-estimation']),
           longbowPoint: sample['longbow-point'],
           storedEnergy: convertStoredEnergyToArray(sample['stored-energy']),
+          fpsData: sample['fps-data'],
           dfDataHash: dfDataHash,
         };
 
@@ -140,7 +141,9 @@ async function main() {
     CentralDifferences, 
     RegressionEstimation, 
     LongbowPoint, 
-    StoredEnergy
+    StoredEnergy,
+    DfHash,
+    FpsData
   ) VALUES(
     $(bowTypeId), 
     $(unstrungLength), 
@@ -177,7 +180,9 @@ async function main() {
     $(centralDifferences), 
     $(regressionEstimation), 
     $(longbowPoint), 
-    $(storedEnergy)
+    $(storedEnergy),
+    $(fpsData),
+    $(dfDataHash)
   )`;
 
         await client.none(insertSampleQuery, values).catch((error) => {

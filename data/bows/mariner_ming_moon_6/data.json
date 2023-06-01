@@ -57,7 +57,7 @@
       ],
       "poundage": 57.3,
       "asym": false,
-      "asym-lengths": { "top": 69.5, "bottom": 68 },
+      "asym-length": { "top": 69.5, "bottom": 68 },
       "manufacture-date": "2021-11",
       "measurement-date": "2022-08",
       "contributed-by": { "discord": "InstaPizza#5973" },

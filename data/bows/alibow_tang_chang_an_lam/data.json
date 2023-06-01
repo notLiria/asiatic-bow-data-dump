@@ -396,7 +396,7 @@
       "max-limb-width": 38.1,
       "min-limb-width": 36.1,
       "arrow-pass-width": 22.5,
-      "max-draw": "33\"",
+      "max-draw": 33,
       "stock-string-length": { "max": 153.8, "min": 137.3 },
       "brace-height": 16.5,
       "manufacture-date": "2022/06",

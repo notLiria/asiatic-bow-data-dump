@@ -60,7 +60,7 @@
       ],
       "poundage": 35,
       "asym": false,
-      "asym-lengths": { "top": 0, "bottom": 0 },
+      "asym-length": { "top": 0, "bottom": 0 },
       "manufacture-date": "2021-11",
       "measurement-date": "2022-08",
       "comments": "Measured on a Last Chance Archery Draw Board. Clear and black option.",

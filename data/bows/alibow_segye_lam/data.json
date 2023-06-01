@@ -157,7 +157,7 @@
       ],
       "poundage": 35,
       "asym": false,
-      "asym-lengths": { "top": 58.5, "bottom": 59.5 },
+      "asym-length": { "top": 58.5, "bottom": 59.5 },
       "manufacture-date": "2022-07",
       "measurement-date": "2022-07",
       "comments": "Measured on a Last Chance Archery Draw Board. Red birch bark. ",

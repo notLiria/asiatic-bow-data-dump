@@ -20,6 +20,7 @@
     "mathjs": "^11.0.1",
     "nodemon": "^2.0.19",
     "pg": "^8.11.0",
+    "pg-promise": "^11.5.0",
     "prettier": "^2.7.1"
   },
   "devDependencies": {

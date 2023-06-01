@@ -55,7 +55,7 @@
       ],
       "poundage": 25,
       "asym": false,
-      "asym-lengths": { "top": 0, "bottom": 0 },
+      "asym-length": { "top": 0, "bottom": 0 },
       "manufacture-date": "2022-07",
       "measurement-date": "2022-07",
       "comments": "Measured on a Last Chance Archery Draw Board.",

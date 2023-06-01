@@ -27,6 +27,6 @@
   "df-data": [{ "x": 0, "y": 0 }],
   "poundage": 0,
   "asym": false,
-  "asym-lengths": { "top": 0, "bottom": 0 },
+  "asym-length": { "top": 0, "bottom": 0 },
   "test": true
 }

@@ -45,5 +45,6 @@ CREATE TABLE Samples (
    RegressionEstimation JSONB NOT NULL,
    LongbowPoint INT,
    StoredEnergy FLOAT[][],
+   FpsData JSONB[],
    DfHash VARCHAR(255) UNIQUE
 );

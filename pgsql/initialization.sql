@@ -12,7 +12,7 @@ CREATE TABLE samples (
    bow_type_id INT NOT NULL REFERENCES bow_types(bow_type_id),
    unstrung_length FLOAT,
    strung_length FLOAT,
-   min_box_dim_length FLOAT,
+   min_box_length FLOAT,
    min_box_width FLOAT,
    min_box_depth FLOAT,
    siyah_effective_top_length FLOAT,
@@ -68,7 +68,7 @@ CREATE TABLE fps_data (
 );
 
 CREATE TABLE fps_regression_data (
-   regression_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   fps regression_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
    sample_id INT NOT NULL REFERENCES samples(sample_id),
    dl FLOAT,
    coefficients FLOAT[],

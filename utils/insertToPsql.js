@@ -31,9 +31,20 @@ async function main() {
 
     const bowTypeData = buildBowTypeQuery(bowTitle, bowLink);
     const bowTypeId = await insertBowTypeAndGetId(db, bowTypeData);
-
+    console.log(`Successfully inserted, we now have bow ID ${bowTypeId}`);
     for (const sample of samples) {
-      buildSampleQuery(sample);
+      const sampleQuery = buildSampleQuery(sample, bowTypeId);
+      console.log(`Inserting bow of id ${bowTypeId}`);
+      const sampleId = await insertSampleAndGetSampleId(db, sampleQuery);
+      if (sampleId) {
+        console.log(
+          `Succsesfully inserted sample and got sampleID ${sampleId}`,
+        );
+      }
+      if (sample['fps-data']) {
+        const fpsQueries = buildFpsQueries(sample['fps-data']);
+        insertFpsData(db, sampleId, fpsQueries);
+      }
     }
   }
 }
@@ -113,9 +124,9 @@ function buildSampleQuery(sample, bowTypeId) {
   sampleQuery['bow_type_id'] = bowTypeId;
   sampleQuery['unstrung_length'] = sample['unstrung-length'];
   sampleQuery['strung_length'] = sample['strung-length'];
-  sampleQuery['min_box_dim_length'] = sample['min-box-dim']['length'];
-  sampleQuery['min_box_dim_width'] = sample['min-box-dim']['width'];
-  sampleQuery['min_box_dim_depth'] = sample['min-box-dim']['depth'];
+  sampleQuery['min_box_length'] = sample['min-box-dim']['length'];
+  sampleQuery['min_box_width'] = sample['min-box-dim']['width'];
+  sampleQuery['min_box_depth'] = sample['min-box-dim']['depth'];
   sampleQuery['siyah_effective_top_length'] =
     sample['siyahs']['effective-top-length'];
   sampleQuery['siyah_effective_bottom_length'] =
@@ -127,20 +138,20 @@ function buildSampleQuery(sample, bowTypeId) {
   sampleQuery['bow_mass'] = sample['bow-mass'];
   sampleQuery['grip_length'] = sample['grip-dim']['length'];
   sampleQuery['grip_width'] = sample['grip-dim']['width'];
-  sampleQuery['grip_depth'] = sample['grip-dim']['depth'];
+  sampleQuery['grip_depth'] = sample['grip-dim']['thickness'];
   sampleQuery['max_limb_thickness'] = sample['max-limb-thickness'];
   sampleQuery['min_limb_thickness'] = sample['min-limb-thickness'];
   sampleQuery['max_limb_width'] = sample['max-limb-width'];
-  sampleQuery['min_limb_width'] = sample['min_limb_width'];
+  sampleQuery['min_limb_width'] = sample['min-limb-width'];
   sampleQuery['arrow_pass_width'] = sample['arrow-pass-width'];
   sampleQuery['max_draw'] = sample['max-draw'];
-  sampleQuery['stock_string_length_min'] = sample['stock-string-length-min'];
-  sampleQuery['stock_string_length_max'] = sample['stock-string-length-max'];
+  sampleQuery['stock_string_length_min'] = sample['stock-string-length']['min'];
+  sampleQuery['stock_string_length_max'] = sample['stock-string-length']['max'];
   sampleQuery['brace_height'] = sample['brace-height'];
   if (sample['contributed-by']) {
     const contributors = getContributor(sample['contributed-by']);
-    sampleQuery['contributor_contact_type'] = contributors[0];
-    sampleQuery['contributor_contact_info'] = contributors[1];
+    sampleQuery['contributor_contact_type'] = contributors[0][0];
+    sampleQuery['contributor_contact_info'] = contributors[0][1];
   }
   sampleQuery['manufacture_date'] = sample['manufacture-date'];
   sampleQuery['measurement_date'] = sample['measurement-date'];
@@ -155,9 +166,8 @@ function buildSampleQuery(sample, bowTypeId) {
   sampleQuery['longbow_point'] = sample['longbow-point'];
 
   if (sample['stored-energy']) {
-    sampleQuery['stored_energy'] = convertStoredEnergyToArray(
-      sample['stored-energy'],
-    );
+    sampleQuery['stored_energy'] =
+      convertStoredEnergyToArray(sample['stored-energy']) || [];
   }
 
   if (sample['regression-estimation'] !== undefined) {
@@ -172,9 +182,10 @@ function buildSampleQuery(sample, bowTypeId) {
     sampleQuery['regression_derivative_values'] = pointArrayToPath(
       sample['regression-estimation']['regression-derivative-values'],
     );
-    sampleQuery['hysteresis'] = sample['hysteresis'];
-    sampleQuery['virtual_mass'] = sample['virtual-mass'];
+    sampleQuery['hysteresis'] = sample['hysteresis'] || -1;
+    sampleQuery['virtual_mass'] = sample['virtual-mass'] || -1;
   }
+  return sampleQuery;
 }
 
 async function insertBowTypeAndGetId(db, bowTypeData) {
@@ -203,6 +214,56 @@ async function insertBowTypeAndGetId(db, bowTypeData) {
     throw error;
   }
 }
+async function insertSampleAndGetSampleId(db, sampleQuery) {
+  const existingSample = await db.oneOrNone(
+    'SELECT sample_id FROM samples WHERE df_data_text = $1',
+    [sampleQuery['df_data']],
+  );
+
+  if (existingSample) {
+    console.log(
+      `Existing sample with sample ID ${existingSample.sample_id} found`,
+    );
+    return existingSample.sample_id;
+  }
+
+  const insertQuery =
+    pgp.helpers.insert(sampleQuery, null, 'samples') + ' RETURNING sample_id';
+  try {
+    const result = await db.one(insertQuery);
+    return result.sample_id;
+  } catch (error) {
+    console.error('Error executing query', error);
+  }
+}
+
+async function insertFpsData(db, sampleId, fpsQueries) {
+  // Start a transaction
+  await db.tx(async (t) => {
+    // Loop through each query in the array
+    for (let query of fpsQueries) {
+      // Insert the data into the fps_data table
+      await t.none(
+        `INSERT INTO fps_data (
+                    sample_id, dl, arrow_weight, gpp, fps, measured_energy, stored_energy, efficiency, draw_length_to_belly
+                ) VALUES (
+                    $1, $2, $3, $4, $5, $6, $7, $8, $9
+                )`,
+        [
+          sampleId,
+          query['dl'],
+          query['arrow-weight'],
+          query['gpp'],
+          query['fps'],
+          query['measured-energy'],
+          query['stored-energy'],
+          query['efficiency'],
+          query['dl-to-belly'],
+        ],
+      );
+    }
+  });
+}
 
 function getContributor(contributedBy) {
   return Object.entries(contributedBy);
@@ -216,4 +277,19 @@ function convertStoredEnergyToArray(storedEnergy) {
   Object.entries(storedEnergy).map(([key, value]) => [parseFloat(key), value]);
 }
 
-function buildFpsQuery(fpsData) {}
+function buildFpsQueries(fpsData) {
+  return fpsData.map((point) => {
+    return {
+      dl: point['dl'],
+      arrow_weight: point['arrow-weight'],
+      gpp: point['gpp'],
+      fps: point['fps'],
+      measured_energy: point['measured-energy'],
+      stored_energy: point['stored-energy'],
+      defficiency: point['efficiency'],
+      draw_length_to_belly: point['dl-to-belly'],
+    };
+  });
+}
+
+function buildFpsRegressionQuery(fpsRegressionData) {}

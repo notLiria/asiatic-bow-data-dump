@@ -44,6 +44,10 @@ async function main() {
       if (sample['fps-data']) {
         const fpsQueries = buildFpsQueries(sample['fps-data']);
         insertFpsData(db, sampleId, fpsQueries);
+        const fpsRegressionQueries = buildFpsRegressionQuery(
+          sample['regression-estimation']['fps-data'],
+        );
+        insertFpsRegressionData(db, fpsRegressionQueries, sampleId);
       }
     }
   }
@@ -265,6 +269,21 @@ async function insertFpsData(db, sampleId, fpsQueries) {
   });
 }
 
+async function insertFpsRegressionData(db, fpsRegressionQuery, sampleId) {
+  try {
+    for (const data of fpsRegressionQuery) {
+      await db.none(
+        'INSERT INTO fps_regression_data(sample_id, dl, coefficients, fitted_line) VALUES($1, $2, $3, $4)',
+        [sampleId, data.dl, data.coefficients, data.fitted_line],
+      );
+    }
+
+    console.log('Data inserted successfully');
+  } catch (error) {
+    console.error('Error inserting data:', error);
+  }
+}
+
 function getContributor(contributedBy) {
   return Object.entries(contributedBy);
 }
@@ -292,4 +311,16 @@ function buildFpsQueries(fpsData) {
   });
 }
 
-function buildFpsRegressionQuery(fpsRegressionData) {}
+function buildFpsRegressionQuery(fpsRegressionData) {
+  const fpsRegressionQuery = [];
+  for (const entry in fpsRegressionData) {
+    const fpsRegressionEntry = {};
+    fpsRegressionEntry['dl'] = entry;
+    fpsRegressionEntry['coefficients'] = fpsRegressionData[entry]['coeffs'];
+    fpsRegressionEntry['fitted_line'] = pointArrayToPath(
+      fpsRegressionData[entry]['fitted-line'],
+    );
+    fpsRegressionQuery.push(fpsRegressionEntry);
+  }
+  return fpsRegressionQuery;
+}

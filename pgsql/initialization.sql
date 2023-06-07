@@ -75,6 +75,35 @@ CREATE TABLE fps_regression_data (
    fitted_line PATH
 );
 
+CREATE TABLE arrow_shafts (
+    shaft_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    manufacturer TEXT NOT NULL,
+    model TEXT NOT NULL,
+    spine INT,
+    gpi FLOAT,
+    od FLOAT,
+    id FLOAT,
+    stock_length FLOAT,
+    insert_stem_length FLOAT,
+    insert_rim_length FLOAT,
+    bushing_nock_inner_length FLOAT,
+    bushing_outer_length FLOAT,
+    insert_weight FLOAT,
+    bushing_nock_weight FLOAT,
+    comments TEXT
+    UNIQUE(manufacturer, model, spine)
+);
+
+CREATE TABLE ShaftCollars (
+    manufacturer TEXT NOT NULL,
+    model TEXT NOT NULL,
+    shaft_size FLOAT,
+    outsert_id FLOAT,
+    outsert_od FLOAT,
+    point_size FLOAT, 
+    weight int,
+);
+
 
 
 

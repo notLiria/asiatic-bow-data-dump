@@ -68,7 +68,7 @@ CREATE TABLE fps_data (
 );
 
 CREATE TABLE fps_regression_data (
-   fps regression_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   fps_regression_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
    sample_id INT NOT NULL REFERENCES samples(sample_id),
    dl FLOAT,
    coefficients FLOAT[],
@@ -90,18 +90,19 @@ CREATE TABLE arrow_shafts (
     bushing_outer_length FLOAT,
     insert_weight FLOAT,
     bushing_nock_weight FLOAT,
-    comments TEXT
+    comments TEXT,
     UNIQUE(manufacturer, model, spine)
 );
 
-CREATE TABLE ShaftCollars (
+CREATE TABLE shaft_collars (
+    collar_id int GENERATED always as identity primary key,
     manufacturer TEXT NOT NULL,
     model TEXT NOT NULL,
     shaft_size FLOAT,
     outsert_id FLOAT,
     outsert_od FLOAT,
     point_size FLOAT, 
-    weight int,
+    weight int
 );
 
 

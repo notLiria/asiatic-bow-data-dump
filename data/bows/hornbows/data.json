@@ -5,11 +5,7 @@
       "bow-title": "Qingyang Li Manchu Hornbow",
       "unstrung-length": -1,
       "strung-length": 152,
-      "min-box-dim": {
-        "length": -1,
-        "width": -1,
-        "depth": -1
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": -1,
         "effective-bottom-length": -1,
@@ -17,11 +13,7 @@
         "effective-bottom-angle": 46.5
       },
       "bow-mass": -1,
-      "grip-dim": {
-        "length": -1,
-        "width": -1,
-        "thickness": 30.6
-      },
+      "grip-dim": { "length": -1, "width": -1, "thickness": 30.6 },
       "max-limb-thickness": 15.2,
       "min-limb-thickness": 13.8,
       "max-limb-width": 41.9,

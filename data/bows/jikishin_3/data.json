@@ -128,11 +128,7 @@
       "bow-title": "Jikishin 3 13kg",
       "unstrung-length": -1,
       "strung-length": -1,
-      "min-box-dim": {
-        "length": -1,
-        "width": -1,
-        "depth": -1
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": -1,
         "effective-bottom-length": -1,
@@ -140,11 +136,7 @@
         "effective-bottom-angle": -1
       },
       "bow-mass": 490,
-      "grip-dim": {
-        "length": -1,
-        "width": -1,
-        "thickness": -1
-      },
+      "grip-dim": { "length": -1, "width": -1, "thickness": -1 },
       "max-limb-thickness": -1,
       "min-limb-thickness": -1,
       "max-limb-width": -1,
@@ -290,11 +282,7 @@
       "bow-title": "Jikishin 3 13kg Nobi",
       "unstrung-length": -1,
       "strung-length": -1,
-      "min-box-dim": {
-        "length": -1,
-        "width": -1,
-        "depth": -1
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": -1,
         "effective-bottom-length": -1,
@@ -302,11 +290,7 @@
         "effective-bottom-angle": -1
       },
       "bow-mass": 490,
-      "grip-dim": {
-        "length": -1,
-        "width": "29.06",
-        "thickness": "16.36"
-      },
+      "grip-dim": { "length": -1, "width": "29.06", "thickness": "16.36" },
       "max-limb-thickness": -1,
       "min-limb-thickness": -1,
       "max-limb-width": -1,

@@ -6,11 +6,7 @@
       "bow-title": "Despot 47\" - Wenge ",
       "unstrung-length": -1,
       "strung-length": -1,
-      "min-box-dim": {
-        "length": -1,
-        "width": -1,
-        "depth": -1
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": -1,
         "effective-bottom-length": -1,
@@ -18,11 +14,7 @@
         "effective-bottom-angle": -1
       },
       "bow-mass": -1,
-      "grip-dim": {
-        "length": -1,
-        "width": -1,
-        "thickness": -1
-      },
+      "grip-dim": { "length": -1, "width": -1, "thickness": -1 },
       "max-limb-thickness": -1,
       "min-limb-thickness": -1,
       "max-limb-width": -1,
@@ -149,11 +141,7 @@
       "unstrung-length": -1,
       "strung-length": -1,
       "contributed-by": { "instagram": "e88305060" },
-      "min-box-dim": {
-        "length": -1,
-        "width": -1,
-        "depth": -1
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": -1,
         "effective-bottom-length": -1,
@@ -161,11 +149,7 @@
         "effective-bottom-angle": -1
       },
       "bow-mass": -1,
-      "grip-dim": {
-        "length": -1,
-        "width": -1,
-        "thickness": -1
-      },
+      "grip-dim": { "length": -1, "width": -1, "thickness": -1 },
       "max-limb-thickness": -1,
       "min-limb-thickness": -1,
       "max-limb-width": -1,

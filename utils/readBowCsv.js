@@ -18,7 +18,7 @@ function processBowCsv(fileName) {
       if (record[keys[1]] !== '') {
         return {
           x: parseFloat(record[keys[0]]),
-          y: parseFloat(record[keys[1]]),
+          y: parseFloat(record[keys[1]]).toFixed(1),
         };
       }
     })
@@ -117,7 +117,4 @@ function processBowCsv(fileName) {
   removeNaNs(output);
 
   console.log(output);
-  return output;
 }
-
-module.exports = processBowCsv;

@@ -176,16 +176,12 @@
       "bow-title": "AF Qing (Old Black Limbed Model)",
       "unstrung-length": 174,
       "strung-length": 165,
-      "min-box-dim": {
-        "length": "Not Measured",
-        "width": "Not Measured",
-        "depth": "Not Measured"
-      },
+      "min-box-dim": { "length": -1, "width": -1, "depth": -1 },
       "siyahs": {
         "effective-top-length": 34,
         "effective-bottom-length": 36,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 170,
       "grip-dim": { "length": 134, "width": 30, "thickness": 33 },

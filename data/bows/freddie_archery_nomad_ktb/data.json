@@ -1,5 +1,5 @@
 {
-  "bow_title": "Nomad KTB",
+  "bow-title": "Nomad KTB",
   "bow-link": "http://koreanbow.com/shop/index.php?id_product=119&controller=product&id_lang=1",
   "samples": [
     {
@@ -10,8 +10,8 @@
       "siyahs": {
         "effective-top-length": 21,
         "effective-bottom-length": 20,
-        "effective-top-angle": "Not Measured",
-        "effective-bottom-angle": "Not Measured"
+        "effective-top-angle": -1,
+        "effective-bottom-angle": -1
       },
       "bow-mass": 300,
       "grip-dim": { "length": 110, "width": 31, "thickness": 32 },

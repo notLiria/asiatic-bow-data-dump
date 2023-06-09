@@ -1,0 +1,58 @@
+{
+  "bow-title": "Tengri Bows Ming Horn Bow",
+  "bow-link": "",
+  "samples": [
+    {
+      "bow-title": "Tengri Bows Ming Horn Bow",
+      "unstrung-length": 141,
+      "strung-length": 135,
+      "min-box-dim": { "length": 120, "width": 33, "depth": 5 },
+      "siyahs": {
+        "effective-top-length": 31,
+        "effective-bottom-length": 30,
+        "effective-top-angle": "Not Measured",
+        "effective-bottom-angle": "Not Measured"
+      },
+      "bow-mass": 425,
+      "grip-dim": { "length": 74, "width": 30, "thickness": 30 },
+      "max-limb-thickness": 20,
+      "min-limb-thickness": 10,
+      "max-limb-width": 40,
+      "min-limb-width": 39,
+      "arrow-pass-width": 31,
+      "max-draw": 30,
+      "stock-string-length": { "max": 119, "min": 105 },
+      "brace-height": 17,
+      "manufacture-date": "2018-??",
+      "measurement-date": "2023-06",
+      "comments": "Only to 29\" as per owners request. orginally 70-75@28\" in 2018, broken in w/ first owner was 65@28\" in 2020, now 58@28\"",
+      "asym": false,
+      "asym-length": { "top": 67.5, "bottom": 67.5 },
+      "df-data": [
+        { "x": 7, "y": 2 },
+        { "x": 8, "y": 7 },
+        { "x": 9, "y": 10 },
+        { "x": 10, "y": 13 },
+        { "x": 11, "y": 17 },
+        { "x": 12, "y": 19 },
+        { "x": 13, "y": 22 },
+        { "x": 14, "y": 24 },
+        { "x": 15, "y": 26 },
+        { "x": 16, "y": 27 },
+        { "x": 17, "y": 31 },
+        { "x": 18, "y": 31 },
+        { "x": 19, "y": 34 },
+        { "x": 20, "y": 35 },
+        { "x": 21, "y": 38 },
+        { "x": 22, "y": 40 },
+        { "x": 23, "y": 42 },
+        { "x": 24, "y": 45 },
+        { "x": 25, "y": 48 },
+        { "x": 26, "y": 51 },
+        { "x": 27, "y": 54 },
+        { "x": 28, "y": 58 },
+        { "x": 29, "y": 63 }
+      ]
+    }
+  ]
+}

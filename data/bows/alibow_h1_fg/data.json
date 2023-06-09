@@ -296,6 +296,58 @@
         "31": 108.01408282628171,
         "29.5": 93.98070120825241
       }
+    },
+    {
+      "bow-title": "Alibow H1 Heavy Draw",
+      "unstrung-length": 152,
+      "strung-length": 147,
+      "min-box-dim": { "length": 141, "width": 34, "depth": 5 },
+      "siyahs": {
+        "effective-top-length": 30,
+        "effective-bottom-length": 34,
+        "effective-top-angle": "Not Measured",
+        "effective-bottom-angle": "Not Measured"
+      },
+      "bow-mass": 380,
+      "grip-dim": { "length": 87, "width": 30, "thickness": 33 },
+      "max-limb-thickness": 30,
+      "min-limb-thickness": 10,
+      "max-limb-width": 34,
+      "min-limb-width": 34,
+      "arrow-pass-width": 30,
+      "max-draw": 31,
+      "stock-string-length": { "max": 129, "min": 116 },
+      "brace-height": 19,
+      "manufacture-date": "2023-04",
+      "measurement-date": "2023-06",
+      "comments": "",
+      "asym": false,
+      "asym-length": { "top": 80, "bottom": 80 },
+      "df-data": [
+        { "x": 8, "y": 6 },
+        { "x": 9, "y": 11 },
+        { "x": 10, "y": 15 },
+        { "x": 11, "y": 17 },
+        { "x": 12, "y": 20 },
+        { "x": 13, "y": 23 },
+        { "x": 14, "y": 25 },
+        { "x": 15, "y": 27 },
+        { "x": 16, "y": 30 },
+        { "x": 17, "y": 32 },
+        { "x": 18, "y": 34 },
+        { "x": 19, "y": 37 },
+        { "x": 20, "y": 39 },
+        { "x": 21, "y": 41 },
+        { "x": 22, "y": 44 },
+        { "x": 23, "y": 47 },
+        { "x": 24, "y": 50 },
+        { "x": 25, "y": 53 },
+        { "x": 26, "y": 56 },
+        { "x": 27, "y": 60 },
+        { "x": 28, "y": 63 },
+        { "x": 29, "y": 68 },
+        { "x": 30, "y": 72 }
+      ]
     }
   ]
 }

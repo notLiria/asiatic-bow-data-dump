@@ -45,6 +45,6 @@ function runNpmScript(scriptName) {
   });
 }
 
-// Usage: node addBowData.js "Alibow New" "someRandomBow.csv"
+// Usage: node addBowData.js af_qing_lam afQingLam.csv
 const [bowType, csvFile, write] = process.argv.slice(2);
 addBowData(bowType, csvFile, write);

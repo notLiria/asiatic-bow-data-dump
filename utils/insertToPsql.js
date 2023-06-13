@@ -300,13 +300,13 @@ function buildFpsQueries(fpsData) {
   return fpsData.map((point) => {
     return {
       dl: point['dl'],
-      arrow_weight: point['arrow-weight'],
+      arrow_weight: point['arrow_weight'],
       gpp: point['gpp'],
       fps: point['fps'],
-      measured_energy: point['measured-energy'],
-      stored_energy: point['stored-energy'],
+      measured_energy: point['measured_energy'],
+      stored_energy: point['stored_energy'],
       defficiency: point['efficiency'],
-      draw_length_to_belly: point['dl-to-belly'],
+      draw_length_to_belly: point['dl_to_belly'],
     };
   });
 }

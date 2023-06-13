@@ -256,7 +256,7 @@ async function insertFpsData(db, sampleId, fpsQueries) {
         [
           sampleId,
           query['dl'],
-          query['arrow-weight'],
+          query['arrow_weight'],
           query['gpp'],
           query['fps'],
           query['measured-energy'],

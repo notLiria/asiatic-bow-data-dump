@@ -17,8 +17,8 @@ function processBowCsv(fileName) {
     .map((record) => {
       if (record[keys[1]] !== '') {
         return {
-          x: Math.round((parseFloat(record[keys[0]]) * 100) / 100),
-          y: Math.round((parseFloat(record[keys[1]]) * 100) / 100),
+          x: parseFloat(record[keys[0]]),
+          y: parseFloat(record[keys[1]]),
         };
       }
     })

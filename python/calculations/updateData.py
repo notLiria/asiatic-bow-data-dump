@@ -6,6 +6,7 @@ from pprint import pprint
 import json
 
 def addRegressionDataToSample(sample):
+    sample['df-data'] = list(map(lambda point: {'x': float(point['x']), 'y': float(point['y'])}, sample['df-data']))
     sample['central-differences'] = calcCentralDifferences(sample['df-data'])
     regressionData = exponentiallyFitDfData(sample['df-data'])
     sample['regression-estimation'] = regressionData

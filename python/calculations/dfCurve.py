@@ -119,11 +119,11 @@ def exponentiallyFitDfData(dfData):
     def dfFunc(x, c): 
         return (P[0]/lambdas[0]) * np.exp(lambdas[0] * x) + (P[1]/lambdas[1]) * np.exp(lambdas[1] * x) + c
     popt, _ = curve_fit(dfFunc, xVals, yVals)
-    output['df-curve'] = [{'x': str(x), 'y': float(dfFunc(x, *popt))} for x in xVals]
+    output['df-curve'] = [{'x': float(x), 'y': float(dfFunc(x, *popt))} for x in xVals]
     output['coeffs']  = [*list(lambdas), *list(P), *list(popt)] # Note that these are coeffs for the derivative
     output['regression-eqn'] = str(P[0]/lambdas[0]) + "e^(" + str(lambdas[0]) + "x) + " + str(P[1]/lambdas[1]) + "e^(" + str(lambdas[1]) + "x) + " + str(*popt)
     output['regression-derivative'] = str(P[0]) + 'e^' + str(lambdas[0]) + "x + "  + str(P[1]) + "e^" + str(lambdas[1]) + "x"
-    output['regression-derivative-values'] = [{'x': str(x), 'y': float(derivativeFunc(x, *[*lambdas, *P]))} for x in xVals]
+    output['regression-derivative-values'] = [{'x': float(x), 'y': float(derivativeFunc(x, *[*lambdas, *P]))} for x in xVals]
     return output
 
 

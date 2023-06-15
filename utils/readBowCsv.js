@@ -107,7 +107,7 @@ function processBowCsv(fileName) {
       }
       if (typeof obj[key] !== 'string') {
         if (Number.isNaN(obj[key])) {
-          obj[key] = 'Not Measured';
+          obj[key] = -1; // 'Not Measured';
         }
       }
     });

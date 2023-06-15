@@ -3,17 +3,12 @@ const pgp = require('pg-promise')();
 const fs = require('fs');
 const path = require('path');
 
-dbConfig = {
-  host: 'localhost',
-  port: 5433,
-  database: 'test_db',
-  user: 'postgres',
-};
+DATABASE_URI = 'postgresql://postgres:bdK1ct2x4UCwxS2@localhost:5432/';
 
 const dataPath = path.join(__dirname, '../', 'data', 'bows');
 
 async function main() {
-  const db = pgp(dbConfig);
+  const db = pgp(DATABASE_URI);
 
   console.log(`Looking for subfolders in ${dataPath}`);
   const bowFolders = fs.readdirSync(dataPath);
@@ -34,16 +29,20 @@ async function main() {
     console.log(`Successfully inserted, we now have bow ID ${bowTypeId}`);
     for (const sample of samples) {
       const sampleQuery = buildSampleQuery(sample, bowTypeId);
-      console.log(`Inserting bow of id ${bowTypeId}`);
+      //console.log(`Inserting bow of id ${bowTypeId}`);
       const sampleId = await insertSampleAndGetSampleId(db, sampleQuery);
       if (sampleId) {
-        console.log(
-          `Succsesfully inserted sample and got sampleID ${sampleId}`,
-        );
+        //console.log(
+        //          `Succsesfully inserted sample and got sampleID ${sampleId}`,
+        //);
       }
       if (sample['fps-data']) {
+        console.log(`Building FPS query`);
         const fpsQueries = buildFpsQueries(sample['fps-data']);
+        console.log(`fpsQueries`);
+        console.log(fpsQueries);
         insertFpsData(db, sampleId, fpsQueries);
+        console.log(`Inesrteed FPS data`);
         const fpsRegressionQueries = buildFpsRegressionQuery(
           sample['regression-estimation']['fps-data'],
         );
@@ -246,25 +245,32 @@ async function insertFpsData(db, sampleId, fpsQueries) {
   await db.tx(async (t) => {
     // Loop through each query in the array
     for (let query of fpsQueries) {
-      // Insert the data into the fps_data table
-      await t.none(
+      // Insert the data into the fps_data table and return the inserted row
+      const insertedRow = await t.one(
         `INSERT INTO fps_data (
                     sample_id, dl, arrow_weight, gpp, fps, measured_energy, stored_energy, efficiency, draw_length_to_belly
                 ) VALUES (
                     $1, $2, $3, $4, $5, $6, $7, $8, $9
-                )`,
+                ) RETURNING *`,
         [
           sampleId,
           query['dl'],
           query['arrow_weight'],
           query['gpp'],
           query['fps'],
-          query['measured-energy'],
-          query['stored-energy'],
+          query['measured_energy'],
+          query['stored_energy'],
           query['efficiency'],
-          query['dl-to-belly'],
+          query['dl_to_belly'],
         ],
       );
+
+      // Check if the insert was successful
+      if (!insertedRow) {
+        throw new Error('Insert failed');
+      } else {
+        console.log(`Inserted row with fps_id: ${insertedRow.fps_id}`);
+      }
     }
   });
 }
@@ -300,13 +306,13 @@ function buildFpsQueries(fpsData) {
   return fpsData.map((point) => {
     return {
       dl: point['dl'],
-      arrow_weight: point['arrow_weight'],
+      arrow_weight: point['arrow-weight'],
       gpp: point['gpp'],
       fps: point['fps'],
-      measured_energy: point['measured_energy'],
-      stored_energy: point['stored_energy'],
+      measured_energy: point['measured-energy'],
+      stored_energy: point['stored-energy'],
       defficiency: point['efficiency'],
-      draw_length_to_belly: point['dl_to_belly'],
+      draw_length_to_belly: point['dl-to-belly'],
     };
   });
 }

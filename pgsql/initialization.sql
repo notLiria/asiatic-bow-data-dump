@@ -106,6 +106,14 @@ CREATE TABLE shaft_collars (
 );
 
 
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    username TEXT UNIQUE NOT NULL,
+    hashed_password TEXT NOT NULL,
+    salt TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
 
 
 -- pg_ctl -D "C:\Program Files\PostgreSQL\15\data" start

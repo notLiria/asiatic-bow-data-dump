@@ -37,12 +37,8 @@ async function main() {
         //);
       }
       if (sample['fps-data']) {
-        console.log(`Building FPS query`);
         const fpsQueries = buildFpsQueries(sample['fps-data']);
-        console.log(`fpsQueries`);
-        console.log(fpsQueries);
         insertFpsData(db, sampleId, fpsQueries);
-        console.log(`Inesrteed FPS data`);
         const fpsRegressionQueries = buildFpsRegressionQuery(
           sample['regression-estimation']['fps-data'],
         );

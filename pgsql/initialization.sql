@@ -51,7 +51,8 @@ CREATE TABLE samples (
    regression_derivative TEXT, 
    regression_derivative_values PATH, 
    hysteresis FLOAT,
-   virtual_mass FLOAT
+   virtual_mass FLOAT, 
+   submodel TEXT
 );
 
 CREATE TABLE fps_data (
@@ -115,6 +116,17 @@ CREATE TABLE users (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
+
+CREATE TABLE tags (
+   tag_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   tag_name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE bow_type_tags (
+   bow_type_id INT NOT NULL REFERENCES bow_types(bow_type_id),
+   tag_id INT NOT NULL REFERENCES tags(tag_id),
+   PRIMARY KEY (bow_type_id, tag_id)
+);
 
 -- pg_ctl -D "C:\Program Files\PostgreSQL\15\data" start
 -- C:/Users/liria/code/asiatic-bow-data-dump/pgsql/initialization.sql

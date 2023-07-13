@@ -83,7 +83,6 @@ CREATE TABLE arrow_shafts (
     spine INT,
     gpi FLOAT,
     od FLOAT,
-    id FLOAT,
     stock_length FLOAT,
     insert_stem_length FLOAT,
     insert_rim_length FLOAT,
@@ -119,7 +118,8 @@ CREATE TABLE users (
 
 CREATE TABLE tags (
    tag_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-   tag_name TEXT NOT NULL UNIQUE
+   tag_name TEXT NOT NULL UNIQUE,
+   tag_description TEXT
 );
 
 CREATE TABLE bow_type_tags (
@@ -127,6 +127,14 @@ CREATE TABLE bow_type_tags (
    tag_id INT NOT NULL REFERENCES tags(tag_id),
    PRIMARY KEY (bow_type_id, tag_id)
 );
+
+CREATE TABLE bow_pictures (
+   picture_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+   picture_link TEXT NOT NULL UNIQUE,
+   bow_type_id INT NOT NULL REFERENCES bow_types(bow_type_id), 
+   submodel TEXT,
+   sample_id INT references samples(sample_id)
+)
 
 -- pg_ctl -D "C:\Program Files\PostgreSQL\15\data" start
 -- C:/Users/liria/code/asiatic-bow-data-dump/pgsql/initialization.sql

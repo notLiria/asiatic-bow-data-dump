@@ -132,7 +132,7 @@ CREATE TABLE bow_pictures (
    picture_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
    picture_link TEXT NOT NULL UNIQUE,
    bow_type_id INT NOT NULL REFERENCES bow_types(bow_type_id), 
-   submodel TEXT,
+   caption TEXT, 
    sample_id INT references samples(sample_id)
 )
 
